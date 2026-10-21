@@ -94,6 +94,13 @@ Oracle bloquea todo por defecto: hay que permitir los puertos **80 y 443** (los 
 
 La instalación tarda unos **10 minutos** desde que la máquina queda en ejecución.
 
+**La dirección de tu Tessis** es la **IP pública** de tu máquina (la ves en **Instancias**, columna «IP pública»),
+con **guiones** en lugar de puntos y terminada en **`.sslip.io`**. Por ejemplo, si la IP es `140.238.12.34`, tu
+Tessis es **`https://140-238-12-34.sslip.io`**. Guardala en favoritos.
+
+No hace falta que la armes a mano: la página donde compraste la licencia y **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)**
+(poniendo tu clave) te muestran la dirección y te avisan cuando está lista, con un botón para abrirla.
+
 1. Entrá a **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** y poné tu clave: vas a ver la dirección de
    tu Tessis y si ya está lista.
 2. Abrí esa dirección, tocá **Crear la cuenta del titular** y usá **tu clave de licencia** como código de alta.

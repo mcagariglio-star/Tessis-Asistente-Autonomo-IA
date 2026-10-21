@@ -10,6 +10,7 @@ demostración (los nombres, lugares y datos son inventados).
 | 1 | [Instalación en Oracle Cloud](01-instalacion.md) | Crear tu servidor gratis y dejar Tessis andando |
 | 1b | [Instalación en Google Cloud](01b-instalacion-google.md) | Plan B si Oracle no tiene lugar: dos comandos y listo |
 | 2 | [Primeros pasos](02-primeros-pasos.md) | Crear tu cuenta, instalar la app en el celular, cargar tus claves de IA |
+| 2b | [Configuración](02b-configuracion.md) | Avisos y notificaciones, familia, privacidad, voz y apariencia, claves, respaldo |
 | 3 | [Charlar y hablar](03-charlar.md) | Cómo pedirle cosas, la voz y la memoria |
 | 4 | [Recordatorios y agenda](04-recordatorios.md) | Avisos a una hora, repetidos, por lugar; Google Calendar; resumen de la mañana |
 | 5 | [Lugares y salidas](05-lugares.md) | Rutas con tránsito, lugares guardados, bienvenidas al llegar |

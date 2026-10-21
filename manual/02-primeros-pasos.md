@@ -75,4 +75,5 @@ vincula su propia cuenta.
 > Durante la prueba piloto, Google solo deja conectar cuentas autorizadas: mandale al administrador el Gmail de
 > cada persona del hogar que va a usar Calendar, Drive o Gmail.
 
-Seguí con [Charlar y hablar](03-charlar.md).
+Todo lo demás (notificaciones, horarios de silencio, voz, tema, PIN, respaldo) está en
+**[Configuración](02b-configuracion.md)**. Después seguí con [Charlar y hablar](03-charlar.md).

@@ -56,6 +56,11 @@ mucho la voz, algún mes puede haber un costo chico.
 
 La instalación tarda unos **10 minutos** desde que la máquina arranca.
 
+**La dirección de tu Tessis** es la **EXTERNAL_IP** que mostró el segundo comando, con **guiones** en lugar de
+puntos y terminada en **`.sslip.io`**: si la IP es `136.113.222.125`, tu Tessis es
+**`https://136-113-222-125.sslip.io`**. Guardala en favoritos. La página donde compraste la licencia y Mi Tessis
+también te la muestran, con un botón para abrirla cuando está lista.
+
 1. Entrá a **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** y poné tu clave: vas a ver la dirección de tu
    Tessis (algo como `https://136-113-222-125.sslip.io`) y si ya está lista.
 2. Abrila, tocá **Crear la cuenta del titular** y usá **tu clave de licencia** como código de alta.
