@@ -12,7 +12,7 @@ izquierda). Está ordenado en pestañas:
 | [IA y claves](#-ia-y-claves) | Las claves de Groq, Gemini, búsqueda y Maps; la IA de tu PC |
 | [Sistema](#-sistema) | Respaldo en tu Google Drive, ubicación, estado del servidor |
 
-Y aparte, en **Integraciones**: Google (Calendar, Drive, Gmail), tu PC y la ubicación con OwnTracks.
+Aparte, en **Integraciones**, están Google (Calendar, Drive, Gmail), tu PC y la ubicación con OwnTracks.
 
 ---
 
@@ -27,11 +27,12 @@ Y aparte, en **Integraciones**: Google (Calendar, Drive, Gmail), tu PC y la ubic
 - **Modo discreto:** la notificación dice solo «Tessis tiene un aviso para vos», sin el contenido. Lo sensible
   siempre llega así.
 - **Silencio:** horarios sin notificaciones, uno para días hábiles y otro para el fin de semana. Tus recordatorios y
-  el resumen de la mañana llegan igual (los pediste vos), y al terminar el silencio te llega un resumen de lo demás.
-- **Resumen de la mañana:** elegí la hora y cada día te llega el clima, tu agenda, los recordatorios y los
-  cumpleaños que Tessis sabe. Con **Mandámelo ahora** lo probás.
+  el resumen de la mañana llegan igual, porque los pediste vos. Al terminar el silencio, recibís un resumen de lo
+  demás.
+- **Resumen de la mañana:** elegí la hora. Cada día te llega con el clima, tu agenda, los recordatorios y los
+  cumpleaños que Tessis conoce. Para probarlo, tocá **Mandámelo ahora**.
 - **Notificaciones:** se activan **en cada dispositivo** (celular y PC por separado). Tocá **Activar**, aceptá el
-  permiso y probalo con **Probar**.
+  permiso y fijate que funcione con **Probar**.
 
 > [!TIP]
 > En el iPhone, las notificaciones funcionan solo si Tessis está instalada en la pantalla de inicio
@@ -44,11 +45,11 @@ Y aparte, en **Integraciones**: Google (Calendar, Drive, Gmail), tu PC y la ubic
 <img src="../img/hogar.png" alt="Familia" width="360">
 
 - **Invitar:** poné el nombre y el vínculo («Laura», «pareja») y tocá **Crear invitación**. Compartile el enlace:
-  vale 48 horas y una sola vez, y la persona elige su usuario y su propia contraseña.
+  vale por 48 horas y se usa una sola vez. Al abrirlo, la persona elige su usuario y su propia contraseña.
 - Para cada miembro, el titular puede:
   - **Contraseña:** generarle un enlace para que elija una nueva si se la olvidó.
   - **Dar de baja:** deja de poder entrar (sus datos quedan guardados).
-  - **Borrar:** la borra a ella **y todos sus datos**. No se puede deshacer.
+  - **Borrar:** elimina a esa persona **y todos sus datos**. No se puede deshacer.
 - **Bloquear** (cada uno, para sí): esa persona no te puede mandar mensajes ni recordatorios por Tessis.
 
 Más sobre el hogar en [El hogar](08-hogar.md).
@@ -70,9 +71,9 @@ Más sobre el hogar en [El hogar](08-hogar.md).
 
 <img src="../img/ajustes-voz.png" alt="Voz y apariencia" width="360">
 
-- **Tema:** claro, oscuro o el del sistema (cambia solo con tu celular).
+- **Tema:** claro, oscuro o el del sistema (este último cambia solo, igual que tu celular).
 - **Color de acento:** naranja, azul, verde o gris. También cambia el color del orbe.
-- **Voz de Tessis** y **velocidad:** elegí y probá con **Escuchar**; después **Guardar voz**.
+- **Voz de Tessis** y **velocidad:** elegilas y probalas con **Escuchar**; después tocá **Guardar voz**.
   - Las voces **Gemini** son las más naturales: usan tu clave de Gemini (cuestan centavos por hora de voz).
   - Las demás son gratis.
 
@@ -82,7 +83,7 @@ Más sobre el hogar en [El hogar](08-hogar.md).
 
 <img src="../img/ajustes-ia.png" alt="Claves de servicios" width="640">
 
-- **Claves de servicios** (desplegá el recuadro): pegá cada clave y guardá. Se guardan **cifradas** en tu servidor y
+- **Claves de servicios** (desplegá el recuadro): pegá cada clave y guardá. Quedan **cifradas** en tu servidor y
   nunca se vuelven a mostrar: solo ves «● Cargada». Con **Quitar** la borrás.
 
   | Clave | Para qué | ¿Hace falta? |
@@ -107,11 +108,12 @@ Las claves del titular las usa todo el hogar: los demás no necesitan cargar nad
 
 <img src="../img/respaldo.png" alt="Sistema" width="640">
 
-- **Respaldo en Google Drive:** una copia diaria de todo Tessis, **cifrada**, en tu Drive (carpeta «Tessis -
-  respaldos», guarda los últimos 7 días). Al activarlo te muestra un **código de recuperación**: anotalo y guardalo
-  bien, porque es la única forma de abrir los respaldos. Si tu servidor se pierde, con ese código se recupera todo.
+- **Respaldo en Google Drive:** una copia diaria de todo Tessis, **cifrada**, en tu Drive. Va a la carpeta
+  «Tessis - respaldos», que conserva los últimos 7 días. Al activarlo, Tessis te muestra un **código de
+  recuperación**: anotalo y guardalo bien, porque es la única forma de abrir los respaldos. Si perdés tu servidor,
+  con ese código recuperás todo.
 - **Ubicación:** cada cuánto este dispositivo manda su ubicación (cada 3 minutos es lo recomendado) y cuánto tiempo
-  se guarda tu recorrido (7 días). Tus lugares guardados, las llegadas y salidas y tus rutinas no se borran.
+  se guarda tu recorrido (7 días). No se borran tus lugares guardados, las llegadas y salidas ni tus rutinas.
 - **Estado del sistema:** si la base de datos funciona y cuántos recordatorios hay activos.
 
 ---

@@ -1,7 +1,7 @@
 # 1 · Instalación
 
-Tessis corre en un **servidor tuyo**. La forma más fácil (y gratis) es una máquina de **Oracle Cloud**: se crea
-desde el navegador en unos 15 minutos y Tessis se instala sola.
+Tessis corre en un **servidor tuyo**. La forma más fácil, y gratis, es una máquina de **Oracle Cloud**: se crea
+desde el navegador en unos 15 minutos. Después, Tessis se instala sola.
 
 **Qué necesitás**
 - Tu **clave de licencia** (`TESS-XXXX-XXXX-XXXX-XXXX`).
@@ -15,7 +15,7 @@ desde el navegador en unos 15 minutos y Tessis se instala sola.
 Entrá a [signup.cloud.oracle.com](https://signup.cloud.oracle.com/) y completá tus datos.
 
 > [!IMPORTANT]
-> La **región** que elijas no se puede cambiar después, y lo gratis vive solo ahí. Elegí la más cercana con lugar:
+> La **región** que elijas no se puede cambiar después: lo gratis existe solo en esa región. Elegí la más cercana con lugar:
 > **Brazil East (Sao Paulo)**, **Brazil Southeast (Vinhedo)** o **Chile Central (Santiago)**.
 
 Oracle acepta tarjetas de **crédito** a nombre del titular de la cuenta (suele rechazar débito, prepagas y
@@ -56,7 +56,7 @@ En el menú **☰ → Recursos informáticos → Instancias**, tocá **Crear ins
    su - ubuntu -c "TESSIS_CLAVE=TESS-XXXX-XXXX-XXXX-XXXX bash /tmp/instalar.sh" > /var/log/tessis-instalar.log 2>&1
    ```
 
-   Quedan 3 líneas; la primera es `#!/bin/bash`. La clave es la tuya, la que recibiste por mail.
+   Son 3 líneas y la primera es `#!/bin/bash`. Usá tu clave, la que recibiste por mail.
 
 5. **Siguiente** → en **Seguridad** no cambies nada → **Siguiente**.
 6. **Red:** en una cuenta nueva ya viene **Crear nueva red virtual en la nube** y **Crear nueva subred pública**.
@@ -64,13 +64,13 @@ En el menú **☰ → Recursos informáticos → Instancias**, tocá **Crear ins
 
    <img src="../img/oracle/10-ip-publica.jpg" alt="IP pública encendida" width="640">
 
-7. **Claves SSH:** dejá **Generar un par de claves para mí** y descargá la clave privada (sirve por si alguna vez
-   hay que entrar a la máquina; guardala en un lugar seguro).
+7. **Claves SSH:** dejá **Generar un par de claves para mí** y descargá la clave privada. Sirve por si alguna
+   vez hay que entrar a la máquina: guardala en un lugar seguro.
 8. **Siguiente** → **Almacenamiento** sin cambios → **Siguiente** → **Crear**.
 
    <img src="../img/oracle/12-crear.jpg" alt="El botón Crear" width="640">
 
-En uno o dos minutos la máquina pasa a **En ejecución**, y Tessis empieza a instalarse sola.
+En uno o dos minutos la máquina pasa a **En ejecución**. A partir de ahí, Tessis empieza a instalarse sola.
 
 ---
 
@@ -78,7 +78,7 @@ En uno o dos minutos la máquina pasa a **En ejecución**, y Tessis empieza a in
 
 Oracle bloquea todo por defecto: hay que permitir los puertos **80 y 443** (los de las páginas web).
 
-1. **☰ → Red → Redes virtuales en la nube** y tocá tu red (empieza con `vcn-`).
+1. Andá a **☰ → Red → Redes virtuales en la nube** y tocá tu red (empieza con `vcn-`).
 
    <img src="../img/oracle/14-red-vcn.jpg" alt="Tu red" width="640">
 
@@ -98,8 +98,8 @@ La instalación tarda unos **10 minutos** desde que la máquina queda en ejecuci
 con **guiones** en lugar de puntos y terminada en **`.sslip.io`**. Por ejemplo, si la IP es `140.238.12.34`, tu
 Tessis es **`https://140-238-12-34.sslip.io`**. Guardala en favoritos.
 
-No hace falta que la armes a mano: la página donde compraste la licencia y **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)**
-(poniendo tu clave) te muestran la dirección y te avisan cuando está lista, con un botón para abrirla.
+No hace falta que la armes a mano. La página donde compraste la licencia y **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)**
+(con tu clave) te muestran la dirección. Cuando está lista, te avisan y te dan un botón para abrirla.
 
 1. Entrá a **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** y poné tu clave: vas a ver la dirección de
    tu Tessis y si ya está lista.
@@ -113,7 +113,7 @@ Listo: seguí con los [primeros pasos](02-primeros-pasos.md).
 
 | Qué pasa | Qué hacer |
 |---|---|
-| Al crear la máquina dice **«Capacidad insuficiente»** u **«Out of capacity»** | Oracle no tiene máquinas gratis libres en ese momento. Reintentá más tarde (de noche o temprano suele haber), pasá la cuenta a **Pay As You Go** (lo gratis sigue gratis y da prioridad) o usá el plan B: **[Google Cloud](01b-instalacion-google.md)**. |
+| Al crear la máquina dice **«Capacidad insuficiente»** u **«Out of capacity»** | Oracle no tiene máquinas gratis libres en ese momento. Tenés tres opciones: reintentar más tarde (de noche o temprano suele haber lugar); pasar la cuenta a **Pay As You Go** (lo gratis sigue siendo gratis y te da prioridad); o usar el plan B, **[Google Cloud](01b-instalacion-google.md)**. |
 | **«bootVolumeQuota… limit reached»** | Se llenaron los 200 GB gratis de disco: borrá discos de máquinas viejas en **Almacenamiento → Volúmenes de inicio**. |
 | En Mi Tessis dice **«Todavía no responde»** después de media hora | Revisá el paso 3 (puertos 80 y 443). |
 | La máquina no tiene IP pública | Faltó encender «Asignar automáticamente dirección IPv4 pública». Entrá a la instancia → Redes → la VNIC → Direcciones IP → editar → IP pública efímera. |
@@ -126,4 +126,4 @@ En cualquier Ubuntu 24.04 (en la nube o en una PC en casa), desde la terminal:
 curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh -o instalar.sh && bash instalar.sh
 ```
 
-Te pide la clave y hace todo lo demás.
+Te pide la clave y se encarga del resto.

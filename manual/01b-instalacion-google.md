@@ -1,7 +1,7 @@
 # 1b · Instalación en Google Cloud (plan B)
 
-Si Oracle no tiene máquinas gratis disponibles («Capacidad insuficiente»), **Google Cloud** también tiene una
-máquina siempre gratis que alcanza para Tessis: la **e2-micro** (2 CPU compartidas, 1 GB de memoria, 30 GB de disco).
+Si Oracle no tiene máquinas gratis disponibles («Capacidad insuficiente»), **Google Cloud** ofrece otra opción
+siempre gratis que alcanza para Tessis: la **e2-micro** (2 CPU compartidas, 1 GB de memoria, 30 GB de disco).
 
 | | Oracle Cloud | Google Cloud |
 |---|---|---|
@@ -22,34 +22,35 @@ mucho la voz, algún mes puede haber un costo chico.
 
 ## Paso 1 · Crear la cuenta y el proyecto
 
-1. Entrá a [console.cloud.google.com](https://console.cloud.google.com/) con tu cuenta de Google y activá la cuenta
-   (prueba gratuita, con tu tarjeta para verificar).
+1. Entrá a [console.cloud.google.com](https://console.cloud.google.com/) con tu cuenta de Google. Activá la prueba
+   gratuita; la tarjeta se usa para verificar.
 2. Arriba a la izquierda, en el selector de proyectos, tocá **Proyecto nuevo**, ponele un nombre (por ejemplo
    `tessis`) y crealo. Anotá su **ID** (aparece debajo del nombre, por ejemplo `tessis-123456`).
-3. En el menú **☰ → Compute Engine → Instancias de VM**. La primera vez, Google pide **Habilitar** la API de
+3. Andá al menú **☰ → Compute Engine → Instancias de VM**. La primera vez, Google pide **Habilitar** la API de
    Compute Engine: tocá **Habilitar** y esperá un minuto.
 
 ## Paso 2 · Crear la máquina con dos comandos
 
 1. Arriba a la derecha de la consola tocá el ícono **`>_`** (**Activar Cloud Shell**). Se abre una terminal abajo.
    Si pide **Autorizar**, aceptá.
-2. Pegá este comando (cambiando `TU-PROYECTO` por el ID de tu proyecto) y apretá Enter. Abre los puertos de la web:
+2. El primer comando abre los puertos de la web. Pegalo (cambiando `TU-PROYECTO` por el ID de tu proyecto) y
+   apretá Enter:
 
    ```bash
    gcloud config set project TU-PROYECTO && gcloud compute firewall-rules create tessis-web --network=default --allow=tcp:80,tcp:443 --target-tags=tessis-web
    ```
 
-3. Pegá este otro, **cambiando la clave por la tuya**, y apretá Enter. Crea la máquina gratis con Tessis:
+3. El segundo crea la máquina gratis con Tessis. Pegalo **cambiando la clave por la tuya** y apretá Enter:
 
    ```bash
    gcloud compute instances create tessis --zone=us-central1-a --machine-type=e2-micro --image-family=ubuntu-2404-lts-amd64 --image-project=ubuntu-os-cloud --boot-disk-size=30GB --boot-disk-type=pd-standard --tags=tessis-web --metadata=startup-script-url=https://licencias.163-176-79-48.sslip.io/inicio.sh,tessis-clave=TESS-XXXX-XXXX-XXXX-XXXX
    ```
 
-   Al terminar muestra una tabla con `STATUS: RUNNING` y la **EXTERNAL_IP**. Dos avisos sobre el tamaño del disco
-   son normales.
+   Al terminar muestra una tabla con `STATUS: RUNNING` y la **EXTERNAL_IP**. Si aparecen dos avisos sobre el tamaño
+   del disco, es normal.
 
 > [!IMPORTANT]
-> Para que sea **gratis** tienen que quedar así: zona en **us-central1**, **us-east1** o **us-west1**, máquina
+> Para que sea **gratis**, la máquina tiene que quedar así: zona en **us-central1**, **us-east1** o **us-west1**, máquina
 > **e2-micro** y disco **pd-standard** de hasta **30 GB**. Los comandos de arriba ya lo hacen.
 
 ## Paso 3 · Entrar a tu Tessis
@@ -57,9 +58,9 @@ mucho la voz, algún mes puede haber un costo chico.
 La instalación tarda unos **10 minutos** desde que la máquina arranca.
 
 **La dirección de tu Tessis** es la **EXTERNAL_IP** que mostró el segundo comando, con **guiones** en lugar de
-puntos y terminada en **`.sslip.io`**: si la IP es `136.113.222.125`, tu Tessis es
-**`https://136-113-222-125.sslip.io`**. Guardala en favoritos. La página donde compraste la licencia y Mi Tessis
-también te la muestran, con un botón para abrirla cuando está lista.
+puntos y terminada en **`.sslip.io`**. Por ejemplo, si la IP es `136.113.222.125`, tu Tessis es
+**`https://136-113-222-125.sslip.io`**. Guardala en favoritos. También te la muestran la página donde compraste la
+licencia y Mi Tessis; cuando está lista, ahí tenés un botón para abrirla.
 
 1. Entrá a **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** y poné tu clave: vas a ver la dirección de tu
    Tessis (algo como `https://136-113-222-125.sslip.io`) y si ya está lista.

@@ -16,7 +16,7 @@ de uso.
 ## Lo que Tessis sabe de vos
 
 En **Lo que sé de vos** ves todo lo que Tessis aprendió: personas, lugares, gustos, rutinas y datos. Podés
-corregir o borrar cualquier cosa, y si borrás algo, no lo vuelve a aprender de la misma charla.
+corregir o borrar cualquier cosa. Si borrás algo, Tessis no lo vuelve a aprender de la misma charla.
 
 <img src="../img/memoria.png" alt="Lo que sé de vos" width="640">
 
@@ -40,7 +40,7 @@ Lo que Tessis marca como sensible (salud, dinero, documentos) **nunca lo dice en
 
 ## Actualizaciones y licencia
 
-Tessis se actualiza sola, de madrugada. Si una versión nueva no arranca, vuelve sola a la anterior. Si tu licencia
+Tessis se actualiza sola, de madrugada. Si una versión nueva no arranca, vuelve automáticamente a la anterior. Si tu licencia
 está por vencer o tiene algún problema, el titular ve un aviso arriba en la app.
 
 ---
@@ -51,13 +51,13 @@ está por vencer o tiene algún problema, el titular ve un aviso arriba en la ap
 No. Solo procesa lo que le escribís o le decís cuando tocás el micrófono.
 
 **¿Puede leer mis mails o mandar mails por mí?**
-Puede **leer** tu Gmail si lo vinculás, para buscar y resumir. No manda, no borra y no marca mails.
+Si vinculás tu Gmail, puede **leerlo** para buscar y resumir mails. No manda, no borra ni marca nada.
 
 **¿Ve mi pantalla sin avisarme?**
 No. Solo cuando se lo pedís («mirá mi pantalla»), y solo si tu PC tiene el agente con ese permiso.
 
 **¿Qué pasa si se cae internet o el servidor?**
-Los recordatorios que vencieron con el servidor apagado salen apenas vuelve, avisando el atraso.
+Los recordatorios que vencieron con el servidor apagado salen apenas vuelve, con un aviso del atraso.
 
 **¿Cuánto cuesta?**
 El servidor de Oracle y las claves de IA tienen opciones gratis que alcanzan para un hogar. La licencia de Tessis

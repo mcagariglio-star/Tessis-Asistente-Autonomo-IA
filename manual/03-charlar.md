@@ -2,8 +2,8 @@
 
 ## Escribir o hablar
 
-Escribile abajo, como en cualquier chat. Para hablarle, **tocá el orbe**: te escucha, responde y, si tenés la voz
-activada, te contesta en voz alta.
+Escribile abajo, como en cualquier chat. Para hablarle, **tocá el orbe**: te escucha y te responde. Si tenés la voz
+activada, lo hace en voz alta.
 
 <img src="../img/chat-movil.png" alt="Charla con Tessis en el celular" width="360">
 
@@ -19,16 +19,17 @@ No hace falta usar palabras exactas: Tessis entiende cómo hablás.
 
 ## Te conoce
 
-Lo que le contás, lo aprende: personas, lugares, gustos, rutinas y datos importantes. Con eso entiende tus pedidos
-(«avisale a mi pareja» sabe quién es) y se adelanta. Lo podés ver todo en **Memoria** («Lo que sé de vos»).
+Tessis aprende lo que le contás: personas, lugares, gustos, rutinas y datos importantes. Con eso entiende tus pedidos
+(si le decís «avisale a mi pareja», sabe quién es) y se adelanta. Podés ver todo lo que sabe en **Memoria** («Lo que
+sé de vos»).
 
 <img src="../img/memoria.png" alt="Lo que Tessis sabe de vos" width="360">
 
 ## No inventa
 
-Si algo no lo sabe, lo busca o te lo dice. Si te dice que hizo algo (agendar, guardar, mandar), es porque lo hizo:
-Tessis verifica cada respuesta antes de mandártela. Y si te da un dato de afuera (un precio, una noticia), te
-muestra de dónde lo sacó.
+Si no sabe algo, lo busca o te avisa que no lo sabe. Cuando te dice que hizo algo (agendar, guardar, mandar), es
+porque lo hizo: Tessis verifica cada respuesta antes de mandártela. Cuando te da un dato de afuera (un precio, una
+noticia), te muestra de dónde lo sacó.
 
 ## La voz
 

@@ -34,5 +34,5 @@ Con datos reales del mercado:
 ## Informes en PDF
 
 «Haceme un informe de 10 páginas sobre energía solar para casas». Tessis investiga en varias fuentes, arma el
-informe por secciones y te lo deja para descargar (y, si querés, en tu Google Drive). Los informes largos se arman en
-segundo plano y te avisa cuando están listos.
+informe por secciones y te lo deja para descargar; si querés, también lo guarda en tu Google Drive. Los informes
+largos se preparan en segundo plano: Tessis te avisa cuando están listos.

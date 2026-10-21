@@ -1,12 +1,12 @@
 # 8 · El hogar
 
-Tessis es para toda la casa: cada persona tiene **su cuenta, su memoria y sus recordatorios**, y entre ustedes se
-pueden mandar mensajes y recordatorios.
+Tessis es para toda la casa: cada persona tiene **su cuenta, su memoria y sus recordatorios**. Además, entre
+ustedes se pueden mandar mensajes y recordatorios.
 
 ## Invitar a tu familia
 
 El titular va a **Configuración → Familia → Invitar**, pone el nombre y el vínculo («Laura, pareja») y comparte el
-enlace. La persona lo abre, elige su usuario y **su propia contraseña**.
+enlace. La persona lo abre y elige su usuario y **su propia contraseña**.
 
 <img src="../img/hogar.png" alt="La familia en Configuración" width="360">
 

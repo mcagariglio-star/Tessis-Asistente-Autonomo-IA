@@ -11,7 +11,7 @@ completá:
 
 <img src="../img/alta-titular.png" alt="Crear la cuenta del titular" width="360">
 
-Antes de empezar, Tessis te muestra cómo se usan tus datos. Leelo: lo que escribís y mostrás se procesa con
+Antes de empezar, Tessis te muestra cómo se usan tus datos. Leé ese aviso: lo que escribís y mostrás se procesa con
 servicios de IA externos.
 
 <img src="../img/aviso-uso.png" alt="El aviso de uso" width="360">
@@ -25,15 +25,15 @@ Tessis es una **app web (PWA)**: se instala desde el navegador, en el celular y 
 - **Android (Chrome):** abrí tu Tessis → menú ⋮ → **Instalar app** (o «Agregar a la pantalla principal»).
 - **iPhone (Safari):** abrí tu Tessis → botón **Compartir** → **Agregar a inicio**.
 
-Queda con su ícono, a pantalla completa, y te puede mandar **notificaciones** (aceptá el permiso cuando lo pida).
-Tessis trabaja en tu servidor las 24 horas: aunque cierres la app o apagues el celular, sigue atenta a tu agenda,
-tus recordatorios y tus lugares, y te avisa con una notificación.
+Queda con su ícono y se abre a pantalla completa. Además, te puede mandar **notificaciones** (aceptá el permiso
+cuando lo pida). Tessis trabaja en tu servidor las 24 horas: aunque cierres la app o apagues el celular, sigue atenta
+a tu agenda, tus recordatorios y tus lugares. Cuando hace falta, te avisa con una notificación.
 
 ---
 
 ## Cargar tus claves de IA
 
-Tessis piensa con servicios de IA que **vos elegís y pagás (o no)**. Los dos tienen una opción gratis que alcanza
+Tessis piensa con servicios de IA que **vos elegís y pagás (o no)**. Groq y Gemini tienen una opción gratis que alcanza
 para el uso de un hogar:
 
 | Servicio | Dónde se saca la clave | Costo |
@@ -44,14 +44,14 @@ para el uso de un hogar:
 En Tessis: **Configuración → IA**, pegá las claves y guardá. Con las dos, si una falla o llega a su límite, Tessis
 sigue con la otra sin que lo notes.
 
-Y dos claves más, para que las búsquedas y las rutas den datos reales:
+Hay dos claves más para que las búsquedas y las rutas den datos reales:
 
 | Servicio | Para qué | Dónde se saca la clave | Costo |
 |---|---|---|---|
 | **Tavily** o **Brave Search** (una de las dos) | Búsquedas en internet con fuentes | [app.tavily.com](https://app.tavily.com/) · [brave.com/search/api](https://brave.com/search/api/) | Gratis, sin tarjeta: Tavily da 1.000 búsquedas por mes; Brave, 5 USD de crédito por mes (unas 1.000 búsquedas) |
 | **Google Maps** (opcional) | Rutas con tiempo y tránsito, avisos de cuándo salir, lugares cercanos | [Google Cloud → Credenciales](https://console.cloud.google.com/apis/credentials) (activar Directions, Places y Geocoding) | Crédito gratis mensual; pide cargar una tarjeta |
 
-Opcional también: **SerpApi** ([serpapi.com](https://serpapi.com/), gratis 250 búsquedas por mes) para buscar
+También es opcional **SerpApi** ([serpapi.com](https://serpapi.com/), 250 búsquedas gratis por mes), para buscar
 **vuelos** con precios reales.
 
 Si cargás las dos de búsqueda, Tessis usa Tavily y, si falla, Brave. Sin ninguna, no puede buscar en internet. Sin Google Maps, las rutas salen como un enlace a Maps, sin tiempos.

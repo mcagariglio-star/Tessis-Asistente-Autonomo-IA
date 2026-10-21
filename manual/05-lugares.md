@@ -8,19 +8,19 @@ o, mejor, con **OwnTracks**, que la manda aunque la app esté cerrada (**Integra
 «Guardá Av. Santa Fe 3200 como mi casa», «guardá esta ubicación como el trabajo», «la casa de mis viejos es en…».
 Con los lugares guardados Tessis:
 
-- sabe cuándo llegás y cuándo te vas, y **aprende tus rutinas**;
+- sabe cuándo llegás y cuándo te vas; así **aprende tus rutinas**;
 - te da la **bienvenida** al llegar: en el trabajo, con lo que tenés agendado; en casa, con lo que quedó pendiente;
 - te hace los **recordatorios por lugar** («cuando llegue a casa…»).
 
 <img src="../img/lugares.png" alt="Guardar un lugar" width="360">
 
-Los ves, los mirás en el mapa o los olvidás en **Memoria → Mis lugares**.
+En **Memoria → Mis lugares** podés verlos, ubicarlos en el mapa u olvidarlos.
 
 ## Rutas y tránsito
 
 | Le decís | Qué hace |
 |---|---|
-| «¿Cómo llego desde casa al trabajo?» | distancia y tiempo con el tránsito de ahora, y botón para navegar |
+| «¿Cómo llego desde casa al trabajo?» | distancia y tiempo con el tránsito actual, más un botón para navegar |
 | «Mandame la ruta al supermercado» | la ruta desde donde estás |
 | «¿Dónde estoy?» | tu ubicación, o el lugar guardado en el que estás |
 | «¿Hay una farmacia cerca?» | lugares cercanos, abiertos y con dirección |
