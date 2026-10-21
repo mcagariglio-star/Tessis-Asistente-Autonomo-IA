@@ -20,12 +20,14 @@ servicios de IA externos.
 
 ## Instalar la app en el celular
 
-Tessis es una **app web**: se instala desde el navegador, sin pasar por las tiendas.
+Tessis es una **app web (PWA)**: se instala desde el navegador, en el celular y en la PC, sin pasar por las tiendas.
 
 - **Android (Chrome):** abrí tu Tessis → menú ⋮ → **Instalar app** (o «Agregar a la pantalla principal»).
 - **iPhone (Safari):** abrí tu Tessis → botón **Compartir** → **Agregar a inicio**.
 
 Queda con su ícono, a pantalla completa, y te puede mandar **notificaciones** (aceptá el permiso cuando lo pida).
+Tessis trabaja en tu servidor las 24 horas: aunque cierres la app o apagues el celular, sigue atenta a tu agenda,
+tus recordatorios y tus lugares, y te avisa con una notificación.
 
 ---
 

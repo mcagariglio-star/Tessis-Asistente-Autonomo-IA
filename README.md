@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/estado-prueba%20piloto-E08A4B?style=flat-square" alt="Estado: prueba piloto">
-  <img src="https://img.shields.io/badge/idioma-español%20rioplatense-163554?style=flat-square" alt="Idioma: español rioplatense">
+  <img src="https://img.shields.io/badge/idioma-español-163554?style=flat-square" alt="Idioma: español">
   <img src="https://img.shields.io/badge/IA-Groq%20·%20Gemini%20·%20local-1D4E89?style=flat-square" alt="IA: Groq, Gemini o local">
   <img src="https://img.shields.io/badge/servidor-propio-163554?style=flat-square" alt="Servidor propio">
 </p>
@@ -25,7 +25,11 @@
 proactiva. Y vive en tu propio servidor: tus datos son tuyos.**
 
 Te conoce, entiende tu día y se adelanta: te avisa cuándo salir, te recuerda lo importante y te da la bienvenida
-cuando llegás. Habla en español rioplatense, por texto o por voz, y trabaja para todo tu hogar.
+cuando llegás. Habla en español, por texto o por voz, y trabaja para todo tu hogar.
+
+Trabaja **las 24 horas, los 7 días de la semana**, en tu servidor: aunque tengas el celular y la PC apagados, sigue
+vigilando tu agenda, tus recordatorios y tus lugares, y te avisa. Y es una **app web (PWA)** que se instala en el
+celular y la PC como una app más, con su ícono y notificaciones, sin pasar por las tiendas.
 
 <p align="center">
   <img src="img/chat-movil.png" alt="Tessis en el celular" width="31%">
@@ -44,6 +48,8 @@ cuando llegás. Habla en español rioplatense, por texto o por voz, y trabaja pa
 
 | | |
 |---|---|
+| ⏱️ **Siempre activa** | Trabaja las 24 horas en tu servidor: aunque apagues el celular y la PC, sigue atenta a tu agenda, tus recordatorios y tus lugares, y te avisa. |
+| 📲 **App en tu celular** | Se instala desde el navegador (PWA) en el celular y la PC, con su ícono y notificaciones, sin pasar por las tiendas. |
 | 💬 **Conversar y recordar** | Charla natural, por texto o por voz. Aprende de vos (personas, lugares, gustos, rutinas) y podés ver, corregir o borrar lo que sabe. |
 | 📅 **Organizar tu día** | Recordatorios a una hora, repetidos o al llegar a un lugar. Google Calendar. Resumen de la mañana. Plazos y vencimientos. |
 | 🚗 **Avisarte cuándo salir** | Sigue el tránsito real y te avisa a tiempo para llegar. Te da la bienvenida en el trabajo con tu agenda. |
