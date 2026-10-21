@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/estado-prueba%20piloto-E08A4B?style=flat-square" alt="Estado: prueba piloto">
+  <img src="https://img.shields.io/badge/estado-lanzamiento-E08A4B?style=flat-square" alt="Estado: lanzamiento">
   <img src="https://img.shields.io/badge/idioma-español-163554?style=flat-square" alt="Idioma: español">
   <img src="https://img.shields.io/badge/IA-Groq%20·%20Gemini%20·%20local-1D4E89?style=flat-square" alt="IA: Groq, Gemini o local">
   <img src="https://img.shields.io/badge/servidor-propio-163554?style=flat-square" alt="Servidor propio">
@@ -40,7 +40,7 @@ celular y la PC como una app más, con su ícono y notificaciones, sin pasar por
 </p>
 
 > [!NOTE]
-> Tessis está en **prueba piloto**. Se instala con una clave de licencia; ver [Cómo conseguirla](#-cómo-conseguirla).
+> Tessis se instala con una **licencia mensual**; ver [Cómo conseguirla](#-cómo-conseguirla).
 
 ---
 
@@ -83,7 +83,10 @@ Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/REA
 
 Tessis corre en un **servidor tuyo**: una máquina gratis de Oracle Cloud o una computadora en casa con Ubuntu.
 
-1. **Pedí tu clave de licencia** (`TESS-XXXX-XXXX-XXXX-XXXX`) escribiendo a mca.gariglio@gmail.com.
+1. **Conseguí tu licencia** en **[Conseguir Tessis](https://licencias.163-176-79-48.sslip.io/comprar)**: el primer
+   mes cuesta **3 USD** y después **5 USD por mes**, en **USDT o USDC por la red BNB Smart Chain**. Al pagar, la
+   clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece sola en la página. Unos días antes de que venza, Tessis te avisa
+   para renovarla.
 2. **Creá tu servidor** siguiendo la [guía paso a paso](manual/01-instalacion.md). En Oracle se pega un script de
    inicio con tu clave y Tessis se instala sola. En un Ubuntu ya creado:
    ```bash
