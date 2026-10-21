@@ -2,8 +2,6 @@
   <img src="img/banner.svg" alt="Tessis — Asistente Personal Autónomo con IA" width="100%">
 </p>
 
-<h3 align="center">Asistente Personal Autónomo con IA</h3>
-
 <p align="center">
   <img src="https://img.shields.io/badge/estado-prueba%20piloto-E08A4B?style=flat-square" alt="Estado: prueba piloto">
   <img src="https://img.shields.io/badge/idioma-español%20rioplatense-163554?style=flat-square" alt="Idioma: español rioplatense">
