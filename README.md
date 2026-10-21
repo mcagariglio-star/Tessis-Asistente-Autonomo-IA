@@ -101,7 +101,7 @@ Tessis es un proyecto independiente. Si te sirve y querés ayudar a que siga cre
 
 | Red | Dirección |
 |---|---|
-| **BNB Smart Chain (BEP20)** | `0x27a08Ba9B6EdC74CCB4b86A35b1401502448BC0c` |
+| **BNB Smart Chain (BEP20)** | `0xE7C0f00a914EcBc1C73E2175BA66af0e4003Fba3` |
 
 > [!WARNING]
 > Mandá **solo por la red BNB Smart Chain (BEP20)**: BNB o tokens BEP20 como USDT o USDC. Si lo enviás por otra red,
