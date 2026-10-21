@@ -175,10 +175,10 @@ ExecStart=/usr/local/bin/tessis-actualizar
 SERVICIO
 sudo tee /etc/systemd/system/tessis-actualizar.timer >/dev/null <<'TIMER'
 [Unit]
-Description=Tessis: control de licencia y actualización, una vez por día
+Description=Tessis: control de licencia y actualización, cada hora
 [Timer]
-OnCalendar=*-*-* 04:00:00
-RandomizedDelaySec=2h
+OnCalendar=hourly
+RandomizedDelaySec=10min
 Persistent=true
 [Install]
 WantedBy=timers.target

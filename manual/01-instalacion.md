@@ -106,7 +106,7 @@ Listo: seguí con los [primeros pasos](02-primeros-pasos.md).
 
 | Qué pasa | Qué hacer |
 |---|---|
-| Al crear la máquina dice **«Capacidad insuficiente»** u **«Out of capacity»** | Oracle no tiene máquinas gratis libres en ese momento. Reintentá más tarde (de noche o temprano suele haber). Pasar la cuenta a **Pay As You Go** (lo gratis sigue gratis) da prioridad. |
+| Al crear la máquina dice **«Capacidad insuficiente»** u **«Out of capacity»** | Oracle no tiene máquinas gratis libres en ese momento. Reintentá más tarde (de noche o temprano suele haber), pasá la cuenta a **Pay As You Go** (lo gratis sigue gratis y da prioridad) o usá el plan B: **[Google Cloud](01b-instalacion-google.md)**. |
 | **«bootVolumeQuota… limit reached»** | Se llenaron los 200 GB gratis de disco: borrá discos de máquinas viejas en **Almacenamiento → Volúmenes de inicio**. |
 | En Mi Tessis dice **«Todavía no responde»** después de media hora | Revisá el paso 3 (puertos 80 y 443). |
 | La máquina no tiene IP pública | Faltó encender «Asignar automáticamente dirección IPv4 pública». Entrá a la instancia → Redes → la VNIC → Direcciones IP → editar → IP pública efímera. |
