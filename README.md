@@ -21,15 +21,15 @@
 
 ## 🐾 Qué es Tessis
 
-**Tessis es una asistente personal autónoma con IA que te conoce, entiende tu contexto y actúa de forma
-proactiva. Y vive en tu propio servidor: tus datos son tuyos.**
+**Tessis es una asistente personal autónoma con IA: te conoce, entiende tu contexto y actúa por su cuenta.
+Vive en tu propio servidor, así que tus datos son tuyos.**
 
-Te conoce, entiende tu día y se adelanta: te avisa cuándo salir, te recuerda lo importante y te da la bienvenida
-cuando llegás. Habla en español, por texto o por voz, y trabaja para todo tu hogar.
+Se adelanta a tu día: te avisa cuándo salir, te recuerda lo importante y te da la bienvenida cuando llegás.
+Habla en español, por texto o por voz, y sirve para todo tu hogar.
 
-Trabaja **las 24 horas, los 7 días de la semana**, en tu servidor: aunque tengas el celular y la PC apagados, sigue
-vigilando tu agenda, tus recordatorios y tus lugares, y te avisa. Y es una **app web (PWA)** que se instala en el
-celular y la PC como una app más, con su ícono y notificaciones, sin pasar por las tiendas.
+Funciona **las 24 horas, todos los días**. Aunque el celular y la PC estén apagados, sigue atenta a tu agenda, a tus
+recordatorios y a tus lugares para avisarte a tiempo. Se usa como una **app web (PWA)**: la instalás en el celular
+o en la PC desde el navegador, con su ícono y sus notificaciones, sin pasar por las tiendas.
 
 <p align="center">
   <img src="img/chat-movil.png" alt="Tessis en el celular" width="31%">
@@ -48,17 +48,17 @@ celular y la PC como una app más, con su ícono y notificaciones, sin pasar por
 
 | | |
 |---|---|
-| ⏱️ **Siempre activa** | Trabaja las 24 horas en tu servidor: aunque apagues el celular y la PC, sigue atenta a tu agenda, tus recordatorios y tus lugares, y te avisa. |
-| 📲 **App en tu celular** | Se instala desde el navegador (PWA) en el celular y la PC, con su ícono y notificaciones, sin pasar por las tiendas. |
-| 💬 **Conversar y recordar** | Charla natural, por texto o por voz. Aprende de vos (personas, lugares, gustos, rutinas) y podés ver, corregir o borrar lo que sabe. |
-| 📅 **Organizar tu día** | Recordatorios a una hora, repetidos o al llegar a un lugar. Google Calendar. Resumen de la mañana. Plazos y vencimientos. |
-| 🚗 **Avisarte cuándo salir** | Sigue el tránsito real y te avisa a tiempo para llegar. Te da la bienvenida en el trabajo con tu agenda. |
+| ⏱️ **Siempre activa** | Funciona todo el día en tu servidor, aunque apagues el celular y la PC. |
+| 📲 **App en tu celular** | Se instala desde el navegador (PWA), con su ícono y sus notificaciones. |
+| 💬 **Conversar y recordar** | Charla natural, por texto o por voz. Aprende de vos (personas, lugares, gustos, rutinas); podés ver, corregir o borrar lo que sabe. |
+| 📅 **Organizar tu día** | Recordatorios a una hora, repetidos o al llegar a un lugar. Google Calendar, resumen de la mañana, plazos y vencimientos. |
+| 🚗 **Avisarte cuándo salir** | Sigue el tránsito real para que llegues a horario. Al llegar al trabajo, te da la bienvenida con tu agenda. |
 | 📍 **Lugares** | Dónde estoy, cómo llego, qué hay cerca. Guarda tus lugares y aprende tus rutinas. |
-| 🔎 **Información real** | Búsquedas con fuentes, clima, dólar, acciones y cripto, análisis de una acción e informes en PDF. No inventa: si no lo sabe, lo busca o te lo dice. |
-| 📨 **Correo y archivos** | Lee tu Gmail (solo lectura) y tu Google Drive. Mira las fotos y capturas que le mostrás. |
-| 🏠 **Para todo el hogar** | Una cuenta por persona. Mensajes y recordatorios entre ustedes: «decile a Ana que compre pan». |
-| 💻 **Tu computadora** | Con el agente para Windows abre programas y mira tu pantalla cuando se lo pedís, y puede pensar con una **IA instalada en tu PC**. |
-| 🔒 **Tus datos, en tu servidor** | Cada hogar tiene su propia instalación. Respaldo diario y, si querés, respaldo cifrado en tu Drive. |
+| 🔎 **Información real** | Búsquedas con fuentes, clima, dólar, acciones, cripto, análisis de acciones e informes en PDF. Si no sabe algo, lo busca o te lo dice: no inventa. |
+| 📨 **Correo y archivos** | Lee tu Gmail (solo lectura) y tu Google Drive. También mira las fotos y capturas que le mostrás. |
+| 🏠 **Para todo el hogar** | Una cuenta por persona, con mensajes y recordatorios entre ustedes: «decile a Ana que compre pan». |
+| 💻 **Tu computadora** | Con el agente para Windows abre programas y mira tu pantalla cuando se lo pedís. También puede pensar con una **IA instalada en tu PC**. |
+| 🔒 **Tus datos, en tu servidor** | Cada hogar tiene su propia instalación, con respaldo diario. Si querés, guarda además una copia cifrada en tu Drive. |
 
 Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/README.md)**.
 
@@ -81,21 +81,23 @@ Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/REA
 
 ## 🚀 Cómo conseguirla
 
-Tessis corre en un **servidor tuyo**: una máquina gratis de Oracle Cloud o una computadora en casa con Ubuntu.
+Tessis corre en un **servidor tuyo**: una máquina gratis de Oracle Cloud o de Google Cloud, o una computadora en
+casa con Ubuntu.
 
-1. **Conseguí tu licencia** en **[Conseguir Tessis](https://licencias.163-176-79-48.sslip.io/comprar)**: el primer
-   mes cuesta **3 USD** y después **5 USD por mes**, en **USDT o USDC por la red BNB Smart Chain**. Al pagar, la
-   clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece sola en la página. Unos días antes de que venza, Tessis te avisa
-   para renovarla.
-2. **Creá tu servidor** siguiendo la [guía paso a paso](manual/01-instalacion.md). En Oracle se pega un script de
-   inicio con tu clave y Tessis se instala sola. En un Ubuntu ya creado:
+1. **Comprá tu licencia** en **[Conseguir Tessis](https://licencias.163-176-79-48.sslip.io/comprar)**. El primer
+   mes cuesta **3 USD**; después, **5 USD por mes**. Se paga en **USDT o USDC por la red BNB Smart Chain**, y al
+   pagar tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en la página.
+2. **Creá tu servidor** con la guía de [Oracle Cloud](manual/01-instalacion.md) o la de
+   [Google Cloud](manual/01b-instalacion-google.md). Al crear la máquina pegás un script de inicio con tu clave, y
+   Tessis se instala sola. Si ya tenés un Ubuntu andando, alcanza con este comando:
    ```bash
    curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh -o instalar.sh && bash instalar.sh
    ```
-3. **Entrá a [Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** con tu clave para ver la dirección de tu
-   Tessis, y creá tu cuenta con esa misma clave.
+3. **Entrá a [Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** con tu clave: ahí ves la dirección de tu
+   Tessis. La primera vez, creá tu cuenta con esa misma clave.
 
-Tessis se actualiza sola: una vez por día busca versiones nuevas y las instala.
+Tessis se mantiene sola: controla su licencia cada hora, instala las versiones nuevas de madrugada y te avisa unos
+días antes de que venza la licencia.
 
 > [!IMPORTANT]
 > Para responder, Tessis usa **servicios de IA externos** (Groq, Google Gemini) con tus propias claves, que tienen
