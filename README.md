@@ -14,6 +14,8 @@
   <a href="#-qué-puede-hacer">Qué puede hacer</a> ·
   <a href="manual/README.md">Manual de usuario</a> ·
   <a href="#-cómo-conseguirla">Cómo conseguirla</a> ·
+  <a href="#-seguridad-y-transparencia">Seguridad</a> ·
+  <a href="#-ayuda-y-soporte">Ayuda</a> ·
   <a href="#-apoyar-el-proyecto">Apoyar el proyecto</a>
 </p>
 
@@ -103,6 +105,42 @@ días antes de que venza la licencia.
 > Para responder, Tessis usa **servicios de IA externos** (Groq, Google Gemini) con tus propias claves, que tienen
 > opción gratis. Lo que escribís, adjuntás o mostrás de tu pantalla se procesa en esos servicios: **no compartas
 > información sensible.**
+
+**¿Cuánto cuesta la IA?** Groq y Gemini tienen planes gratis que, para el uso normal de un hogar, suelen alcanzar.
+Si un día se llega al límite, Tessis lo dice y usa el otro servicio. Google Maps también tiene un crédito mensual
+gratis. Lo que pagues a esos servicios, si pasás a un plan pago, es aparte de la licencia.
+
+**¿Y si no me funciona?** Si en los primeros 7 días desde tu primera compra no lográs hacerla funcionar,
+escribinos y te devolvemos el pago.
+
+---
+
+## 🔐 Seguridad y transparencia
+
+- **El instalador es público:** es [`instalar.sh`](instalar.sh), en este repositorio. Podés leerlo antes de
+  ejecutarlo y comprobar que es el mismo que se descarga desde la página de licencias:
+  ```bash
+  diff <(curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh) <(curl -fsSL https://raw.githubusercontent.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/main/instalar.sh) && echo "Es el mismo"
+  ```
+- **Cada versión se verifica:** antes de instalar o actualizar, Tessis comprueba la huella (sha256) de lo que
+  descargó. Si no coincide, no instala nada. Si una versión nueva no arranca bien, vuelve sola a la anterior.
+- **Tus claves, cifradas:** las claves de IA y las autorizaciones de Google se guardan cifradas en tu servidor y
+  no se vuelven a mostrar.
+- **Qué recibimos nosotros:** solo el control de la licencia (tu clave, la versión y la dirección de tu Tessis,
+  para mostrártela en Mi Tessis). Tus conversaciones, recuerdos, archivos y claves quedan en tu servidor y nunca
+  pasan por nosotros. No tenemos acceso a tu servidor.
+
+---
+
+## 🛟 Ayuda y soporte
+
+- **Dudas y sugerencias:** en [Discussions](https://github.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/discussions).
+- **Errores:** en [Issues](https://github.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/issues), contando qué
+  pasó y qué esperabas.
+- **Pagos, licencias o algo privado:** a [mca.gariglio@gmail.com](mailto:mca.gariglio@gmail.com).
+
+> [!CAUTION]
+> Discussions e Issues son públicos: nunca pegues ahí tu clave de licencia, tus claves de IA ni datos personales.
 
 ---
 
