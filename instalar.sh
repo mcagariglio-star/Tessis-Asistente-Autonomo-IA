@@ -17,7 +17,7 @@
 # ==============================================================================
 set -euo pipefail
 
-LICENCIAS="${LICENCIAS:-https://licencias.163-176-79-48.sslip.io}"
+LICENCIAS="${LICENCIAS:-https://licencias.tessis-ia.com}"
 DIR="${TESSIS_DIR:-$HOME/tessis}"
 CONF=/etc/tessis/licencia.env
 
@@ -44,6 +44,8 @@ if [ -f "$CONF" ]; then
     # Reinstalación: misma clave y misma instalación
     # shellcheck disable=SC1090
     . <(sudo cat "$CONF")
+    # La dirección vieja del servidor de licencias pasó al dominio propio
+    if [ "$LICENCIAS" = "https://licencias.163-176-79-48.sslip.io" ]; then LICENCIAS="https://licencias.tessis-ia.com"; fi
 fi
 CLAVE="${TESSIS_CLAVE:-${CLAVE:-}}"
 if [ -z "$CLAVE" ]; then
