@@ -129,6 +129,10 @@ escribinos y te devolvemos el pago.
 - **Qué recibimos nosotros:** solo el control de la licencia (tu clave, la versión y la dirección de tu Tessis,
   para mostrártela en Mi Tessis). Tus conversaciones, recuerdos, archivos y claves quedan en tu servidor y nunca
   pasan por nosotros. No tenemos acceso a tu servidor.
+- **Google, con una sola aplicación para todos:** si vinculás Calendar, Drive o Gmail, la autorización pasa por
+  nuestro servidor al conectarla y cada vez que se renueva (cada hora), **sin guardarse**: se entrega a tu Tessis y
+  se descarta. Google va a mostrar el aviso «Google no verificó esta app» hasta que terminemos su verificación: tocá
+  *Configuración avanzada → Ir a Tessis*.
 
 ---
 
