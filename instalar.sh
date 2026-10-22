@@ -124,6 +124,15 @@ for f in docker-compose.yml Caddyfile .env.example caddy-extra/LEEME.txt; do
     sudo docker cp "$CONT:/deploy/$f" - | tar -x -O > "$DEPLOY/$f"
 done
 sudo docker rm "$CONT" >/dev/null
+# Primer estado de la licencia, firmado (después lo renueva tessis-actualizar cada hora)
+mkdir -p "$DEPLOY/licencia"
+python3 - "$DEPLOY/licencia/estado.json" "$RESP" <<'PY'
+import json, sys, time
+d = json.loads(sys.argv[2])
+json.dump({"valida": bool(d.get("valida")), "vence": d.get("vence"), "ultima_version": d.get("ultima_version"),
+           "controlado": int(time.time()), "firmado": d.get("firmado")}, open(sys.argv[1], "w"))
+PY
+chmod 644 "$DEPLOY/licencia/estado.json"
 
 # ── 3. Dominio y secretos ────────────────────────────────────────────────────
 paso "Dominio: $DOMINIO"
