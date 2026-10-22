@@ -52,7 +52,7 @@ En el menú **☰ → Recursos informáticos → Instancias**, tocá **Crear ins
 
    ```bash
    #!/bin/bash
-   curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh -o /tmp/instalar.sh
+   curl -fsSL https://licencias.tessis-ia.com/instalar.sh -o /tmp/instalar.sh
    su - ubuntu -c "TESSIS_CLAVE=TESS-XXXX-XXXX-XXXX-XXXX bash /tmp/instalar.sh" > /var/log/tessis-instalar.log 2>&1
    ```
 
@@ -98,10 +98,10 @@ La instalación tarda unos **10 minutos** desde que la máquina queda en ejecuci
 con **guiones** en lugar de puntos y terminada en **`.sslip.io`**. Por ejemplo, si la IP es `140.238.12.34`, tu
 Tessis es **`https://140-238-12-34.sslip.io`**. Guardala en favoritos.
 
-No hace falta que la armes a mano. La página donde compraste la licencia y **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)**
+No hace falta que la armes a mano. La página donde compraste la licencia y **[Mi Tessis](https://licencias.tessis-ia.com/)**
 (con tu clave) te muestran la dirección. Cuando está lista, te avisan y te dan un botón para abrirla.
 
-1. Entrá a **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** y poné tu clave: vas a ver la dirección de
+1. Entrá a **[Mi Tessis](https://licencias.tessis-ia.com/)** y poné tu clave: vas a ver la dirección de
    tu Tessis y si ya está lista.
 2. Abrí esa dirección, tocá **Crear la cuenta del titular** y usá **tu clave de licencia** como código de alta.
 
@@ -123,7 +123,7 @@ Listo: seguí con los [primeros pasos](02-primeros-pasos.md).
 En cualquier Ubuntu 24.04 (en la nube o en una PC en casa), desde la terminal:
 
 ```bash
-curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh -o instalar.sh && bash instalar.sh
+curl -fsSL https://licencias.tessis-ia.com/instalar.sh -o instalar.sh && bash instalar.sh
 ```
 
 Te pide la clave y se encarga del resto.

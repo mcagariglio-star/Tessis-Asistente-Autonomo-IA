@@ -86,16 +86,16 @@ Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/REA
 Tessis corre en un **servidor tuyo**: una máquina gratis de Oracle Cloud o de Google Cloud, o una computadora en
 casa con Ubuntu.
 
-1. **Comprá tu licencia** en **[Conseguir Tessis](https://licencias.163-176-79-48.sslip.io/comprar)**. El primer
+1. **Comprá tu licencia** en **[Conseguir Tessis](https://licencias.tessis-ia.com/comprar)**. El primer
    mes cuesta **3 USD**; después, **5 USD por mes**. Se paga en **USDT o USDC por la red BNB Smart Chain**, y al
    pagar tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en la página.
 2. **Creá tu servidor** con la guía de [Oracle Cloud](manual/01-instalacion.md) o la de
    [Google Cloud](manual/01b-instalacion-google.md). Al crear la máquina pegás un script de inicio con tu clave, y
    Tessis se instala sola. Si ya tenés un Ubuntu andando, alcanza con este comando:
    ```bash
-   curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh -o instalar.sh && bash instalar.sh
+   curl -fsSL https://licencias.tessis-ia.com/instalar.sh -o instalar.sh && bash instalar.sh
    ```
-3. **Entrá a [Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** con tu clave: ahí ves la dirección de tu
+3. **Entrá a [Mi Tessis](https://licencias.tessis-ia.com/)** con tu clave: ahí ves la dirección de tu
    Tessis. La primera vez, creá tu cuenta con esa misma clave.
 
 Tessis se mantiene sola: controla su licencia cada hora, instala las versiones nuevas de madrugada y te avisa unos
@@ -120,7 +120,7 @@ escribinos y te devolvemos el pago.
 - **El instalador es público:** es [`instalar.sh`](instalar.sh), en este repositorio. Podés leerlo antes de
   ejecutarlo y comprobar que es el mismo que se descarga desde la página de licencias:
   ```bash
-  diff <(curl -fsSL https://licencias.163-176-79-48.sslip.io/instalar.sh) <(curl -fsSL https://raw.githubusercontent.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/main/instalar.sh) && echo "Es el mismo"
+  diff <(curl -fsSL https://licencias.tessis-ia.com/instalar.sh) <(curl -fsSL https://raw.githubusercontent.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/main/instalar.sh) && echo "Es el mismo"
   ```
 - **Cada versión se verifica:** antes de instalar o actualizar, Tessis comprueba la huella (sha256) de lo que
   descargó. Si no coincide, no instala nada. Si una versión nueva no arranca bien, vuelve sola a la anterior.

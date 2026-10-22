@@ -43,7 +43,7 @@ mucho la voz, algún mes puede haber un costo chico.
 3. El segundo crea la máquina gratis con Tessis. Pegalo **cambiando la clave por la tuya** y apretá Enter:
 
    ```bash
-   gcloud compute instances create tessis --zone=us-central1-a --machine-type=e2-micro --image-family=ubuntu-2404-lts-amd64 --image-project=ubuntu-os-cloud --boot-disk-size=30GB --boot-disk-type=pd-standard --tags=tessis-web --metadata=startup-script-url=https://licencias.163-176-79-48.sslip.io/inicio.sh,tessis-clave=TESS-XXXX-XXXX-XXXX-XXXX
+   gcloud compute instances create tessis --zone=us-central1-a --machine-type=e2-micro --image-family=ubuntu-2404-lts-amd64 --image-project=ubuntu-os-cloud --boot-disk-size=30GB --boot-disk-type=pd-standard --tags=tessis-web --metadata=startup-script-url=https://licencias.tessis-ia.com/inicio.sh,tessis-clave=TESS-XXXX-XXXX-XXXX-XXXX
    ```
 
    Al terminar muestra una tabla con `STATUS: RUNNING` y la **EXTERNAL_IP**. Si aparecen dos avisos sobre el tamaño
@@ -62,7 +62,7 @@ puntos y terminada en **`.sslip.io`**. Por ejemplo, si la IP es `136.113.222.125
 **`https://136-113-222-125.sslip.io`**. Guardala en favoritos. También te la muestran la página donde compraste la
 licencia y Mi Tessis; cuando está lista, ahí tenés un botón para abrirla.
 
-1. Entrá a **[Mi Tessis](https://licencias.163-176-79-48.sslip.io/)** y poné tu clave: vas a ver la dirección de tu
+1. Entrá a **[Mi Tessis](https://licencias.tessis-ia.com/)** y poné tu clave: vas a ver la dirección de tu
    Tessis (algo como `https://136-113-222-125.sslip.io`) y si ya está lista.
 2. Abrila, tocá **Crear la cuenta del titular** y usá **tu clave de licencia** como código de alta.
 
