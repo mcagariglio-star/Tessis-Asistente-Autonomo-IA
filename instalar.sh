@@ -21,6 +21,24 @@ LICENCIAS="${LICENCIAS:-https://licencias.tessis-ia.com}"
 DIR="${TESSIS_DIR:-$HOME/tessis}"
 CONF=/etc/tessis/licencia.env
 
+# Llave PÚBLICA de publicación de Tessis: solo se instala lo que está firmado con su llave privada, que vive en la PC
+# del administrador (no en el servidor de licencias). verificar ARCHIVO FIRMA_BASE64
+LLAVE_PUBLICACION="-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VwAyEArqgqvfSaLUh7z8hsclk+cWuMWS63It7jhTA4GFjk/hc=
+-----END PUBLIC KEY-----"
+verificar() {
+    local k s r
+    k="$(mktemp)"; s="$(mktemp)"
+    printf '%s\n' "$LLAVE_PUBLICACION" > "$k"
+    if printf '%s' "$2" | base64 -d > "$s" 2>/dev/null && [ -s "$s" ]; then
+        openssl pkeyutl -verify -pubin -inkey "$k" -rawin -in "$1" -sigfile "$s" >/dev/null 2>&1; r=$?
+    else
+        r=1
+    fi
+    rm -f "$k" "$s"
+    return $r
+}
+
 paso() { printf '\n\033[1;36m==> %s\033[0m\n' "$*"; }
 error() { printf '\n\033[1;31m%s\033[0m\n' "$*" >&2; exit 1; }
 
@@ -29,7 +47,9 @@ error() { printf '\n\033[1;31m%s\033[0m\n' "$*" >&2; exit 1; }
 command -v apt-get >/dev/null || error "Este instalador es para Ubuntu o Debian."
 case "$(uname -m)" in
     x86_64) ARQ=amd64 ;;
-    aarch64 | arm64) ARQ=arm64 ;;
+    # Por ahora solo hay versión para AMD/Intel: se avisa antes de activar la licencia (así no se gasta el servidor)
+    aarch64 | arm64) error "Por ahora Tessis funciona solo en máquinas AMD o Intel. Si creaste una Ampere (ARM), creá
+otra máquina con la unidad VM.Standard.E2.1.Micro (AMD), que también es gratis, y usá la misma clave." ;;
     *) error "Procesador no soportado: $(uname -m)." ;;
 esac
 # sudo -n primero: `sudo -v` pide contraseña si el usuario además está en el grupo sudo, aunque tenga NOPASSWD
@@ -109,20 +129,16 @@ fi
 
 # ── 2. Imagen ─────────────────────────────────────────────────────────────────
 paso "Bajando Tessis $VERSION (unos 400 MB)"
-sudo install -m 755 /dev/stdin /usr/local/bin/tessis-imagen <<'IMAGEN'
-#!/usr/bin/env bash
-# tessis-imagen VERSION ARQ: baja la imagen del servidor de licencias, verifica el sha256 y la carga.
-set -euo pipefail
-. /etc/tessis/licencia.env
-TMP="$(mktemp -d)"; trap 'rm -rf "$TMP"' EXIT
-curl -fsS --retry 3 -D "$TMP/cabeceras" -o "$TMP/imagen.tar.gz" \
-    -H "Authorization: Bearer $CLAVE" -H "X-Instalacion: $INSTALACION" "$LICENCIAS/api/imagen/$2/$1"
-ESPERADO="$(grep -i '^x-sha256:' "$TMP/cabeceras" | tr -d '\r' | awk '{print $2}')"
-[ -n "$ESPERADO" ] && [ "$(sha256sum "$TMP/imagen.tar.gz" | cut -d' ' -f1)" = "$ESPERADO" ] \
-    || { echo "La imagen bajada no coincide con la publicada (sha256): no se usa." >&2; exit 1; }
-gunzip -c "$TMP/imagen.tar.gz" | docker load -q
-IMAGEN
-sudo tessis-imagen "$VERSION" "$ARQ"
+# El actualizador baja y verifica las imágenes (huella y firma de publicación); él mismo también va firmado
+TMP_ACT="$(mktemp -d)"
+curl -fsS "$LICENCIAS/tessis-actualizar" -o "$TMP_ACT/tessis-actualizar" \
+    && curl -fsS "$LICENCIAS/tessis-actualizar.firma" -o "$TMP_ACT/firma" \
+    || error "No pude bajar el actualizador de Tessis. Revisá la conexión a internet."
+verificar "$TMP_ACT/tessis-actualizar" "$(cat "$TMP_ACT/firma")" \
+    || error "El actualizador no tiene una firma válida de Tessis: no se instala nada."
+sudo install -m 755 "$TMP_ACT/tessis-actualizar" /usr/local/bin/tessis-actualizar
+rm -rf "$TMP_ACT"
+sudo tessis-actualizar --imagen "$VERSION" "$ARQ" || error "No se pudo bajar o verificar Tessis $VERSION."
 
 paso "Preparando la carpeta $DIR"
 mkdir -p "$DEPLOY/caddy-extra" "$DEPLOY/backups"
@@ -178,8 +194,7 @@ print(b(k.public_key().public_bytes(serialization.Encoding.X962, serialization.P
 fi
 
 # ── 4. Actualizador diario ───────────────────────────────────────────────────
-paso "Instalando el actualizador diario"
-curl -fsS "$LICENCIAS/tessis-actualizar" | sudo install -m 755 /dev/stdin /usr/local/bin/tessis-actualizar
+paso "Programando el actualizador (cada hora)"
 sudo tee /etc/systemd/system/tessis-actualizar.service >/dev/null <<'SERVICIO'
 [Unit]
 Description=Tessis: control de licencia y actualización
