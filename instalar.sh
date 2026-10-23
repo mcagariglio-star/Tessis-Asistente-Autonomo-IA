@@ -71,6 +71,11 @@ if [ "$(echo "$RESP" | json valida)" != "True" ]; then
     error "No se pudo activar: $(echo "$RESP" | json detail)"
 fi
 VERSION="$(echo "$RESP" | json ultima_version)"
+# Si el titular eligió su dirección al comprar (nombre.tessis-ia.com), se instala directo con ella
+ASIGNADO="$(echo "$RESP" | json dominio_asignado)"
+if [ -n "$ASIGNADO" ] && [ "$ASIGNADO" != "None" ]; then
+    DOMINIO="$ASIGNADO"
+fi
 [ -n "$VERSION" ] || error "Todavía no hay una versión de Tessis publicada. Probá más tarde."
 echo "Licencia de $(echo "$RESP" | json titular). Versión $VERSION."
 
