@@ -212,6 +212,10 @@ case "$DOMINIO" in localhost | *.localhost) INSEGURO=(-k) ;; esac
 for _ in $(seq 1 60); do
     if curl -fsS "${INSEGURO[@]}" -o /dev/null "https://$DOMINIO/"; then
         printf '\n\033[1;32mListo: https://%s\033[0m\n' "$DOMINIO"
+        # «Tu Tessis está lista» por mail, ahora que responde de verdad
+        curl -fsS -m 20 -X POST "$LICENCIAS/api/instalada" -H "Content-Type: application/json" \
+            -d "{\"clave\": \"$CLAVE\", \"instalacion\": \"$INSTALACION\", \"arquitectura\": \"$ARQ\", \"dominio\": \"$DOMINIO\"}" \
+            -o /dev/null 2>&1 && touch "$DEPLOY/licencia/avisada" || true
         ALTA="$(grep '^BOOTSTRAP_TOKEN=' "$ENV" | cut -d= -f2-)"
         echo "Para crear la cuenta del titular, abrí esa dirección y usá tu clave de licencia, o este enlace:"
         echo "    https://$DOMINIO/?alta=$ALTA"
