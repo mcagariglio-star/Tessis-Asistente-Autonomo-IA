@@ -43,9 +43,9 @@ En el menú **☰ → Recursos informáticos → Instancias**, tocá **Crear ins
 
    <img src="../img/oracle/07-micro-elegida.jpg" alt="La Micro, siempre gratis" width="640">
 
-   > [!TIP]
-   > Si tenés lugar, una **Ampere VM.Standard.A1.Flex** (1 procesador y 6 GB, también gratis) es mucho mejor.
-   > Está en **Cambiar unidad → Ampere**. Casi siempre hay que reintentar varias veces para conseguirla.
+   > [!IMPORTANT]
+   > Por ahora Tessis funciona solo en máquinas **AMD o Intel**. No elijas **Ampere** (A1.Flex), aunque Oracle la
+   > ofrezca gratis: es ARM y todavía no hay versión para ella. Ya está en camino.
 
 4. **El script de inicio (lo más importante):** debajo de la unidad abrí **Opciones avanzadas → Gestión → Script
    de inicialización**, elegí **Pegar script cloud-init** y pegá esto, **cambiando la clave por la tuya**:
