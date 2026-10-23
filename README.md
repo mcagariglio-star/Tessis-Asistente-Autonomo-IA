@@ -88,15 +88,17 @@ casa con Ubuntu.
 
 1. **Comprá tu licencia** en **[Conseguir Tessis](https://licencias.tessis-ia.com/comprar)**. El primer
    mes cuesta **3 USD**; después, **5 USD por mes**. Se paga en **USDT o USDC por la red BNB Smart Chain**, y al
-   pagar tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en la página.
+   pagar tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en la página y te llega por mail. Ahí también podés elegir
+   la dirección de tu Tessis, por ejemplo **`maxi.tessis-ia.com`**.
 2. **Creá tu servidor** con la guía de [Oracle Cloud](manual/01-instalacion.md) o la de
    [Google Cloud](manual/01b-instalacion-google.md). Al crear la máquina pegás un script de inicio con tu clave, y
    Tessis se instala sola. Si ya tenés un Ubuntu andando, alcanza con este comando:
    ```bash
    curl -fsSL https://licencias.tessis-ia.com/instalar.sh -o instalar.sh && bash instalar.sh
    ```
-3. **Entrá a [Mi Tessis](https://licencias.tessis-ia.com/)** con tu clave: ahí ves la dirección de tu
-   Tessis. La primera vez, creá tu cuenta con esa misma clave.
+3. **Entrá a tu Tessis.** Cuando está lista te llega un mail con su dirección; también la ves en
+   **[Mi Tessis](https://licencias.tessis-ia.com/)** con tu clave. La primera vez, creá tu cuenta con esa misma
+   clave. Si no elegiste nombre, podés elegirlo después ([la dirección de tu Tessis](manual/01c-tu-direccion.md)).
 
 Tessis se mantiene sola: controla su licencia cada hora, instala las versiones nuevas de madrugada y te avisa unos
 días antes de que venza la licencia.
@@ -131,8 +133,8 @@ escribinos y te devolvemos el pago.
   pasan por nosotros. No tenemos acceso a tu servidor.
 - **Google, con una sola aplicación para todos:** si vinculás Calendar, Drive o Gmail, la autorización pasa por
   nuestro servidor al conectarla y cada vez que se renueva (cada hora), **sin guardarse**: se entrega a tu Tessis y
-  se descarta. Google va a mostrar el aviso «Google no verificó esta app» hasta que terminemos su verificación: tocá
-  *Configuración avanzada → Ir a Tessis*.
+  se descarta. Mientras Google termina de verificar la aplicación de Tessis (el trámite está en curso), aparece el
+  aviso «Google no verificó esta app»: tocá *Configuración avanzada → Ir a Tessis*.
 
 ---
 

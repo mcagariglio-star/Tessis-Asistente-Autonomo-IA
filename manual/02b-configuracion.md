@@ -123,6 +123,8 @@ Las claves del titular las usa todo el hogar: los demás no necesitan cargar nad
 <img src="../img/integraciones.png" alt="Integraciones" width="360">
 
 - **Google:** vinculá Calendar, Drive y Gmail (solo lectura) con tu cuenta. Cada persona del hogar vincula la suya.
+  Mientras Google verifica la aplicación de Tessis (en trámite), aparece «Google no verificó esta app»: tocá
+  **Configuración avanzada → Ir a Tessis**.
 - **Dispositivos vinculados:** conectá tu PC con el [agente para Windows](09-pc.md).
 - **OwnTracks:** para que Tessis sepa cuándo llegás o te vas de tus lugares aunque no tengas la app abierta. Seguí
   los 3 pasos de la pantalla **desde el celular**.

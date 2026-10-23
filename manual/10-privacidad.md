@@ -60,8 +60,9 @@ No. Solo cuando se lo pedís («mirá mi pantalla»), y solo si tu PC tiene el a
 Los recordatorios que vencieron con el servidor apagado salen apenas vuelve, con un aviso del atraso.
 
 **¿Cuánto cuesta?**
-El servidor de Oracle y las claves de IA tienen opciones gratis que alcanzan para un hogar. La licencia de Tessis
-es gratuita durante la prueba piloto.
+El servidor (Oracle Cloud o Google Cloud) y las claves de IA tienen opciones gratis que alcanzan para un hogar. La
+licencia de Tessis cuesta 3 USD el primer mes y después 5 USD por mes, para hasta 5 personas. Si en los primeros
+7 días no lográs hacerla funcionar, te devolvemos el pago.
 
 **¿Cómo borro todo?**
 El titular puede borrar a un miembro y todos sus datos desde **Configuración → Familia**. Para borrar todo, se borra

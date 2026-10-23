@@ -3,8 +3,8 @@
 Primero vinculá tu cuenta en **Integraciones → Vincular con Google** (cada persona del hogar, la suya).
 
 > [!NOTE]
-> Mientras Google termina de verificar la aplicación de Tessis, va a aparecer la pantalla **«Google no verificó esta
-> app»**. Es normal: tocá **Configuración avanzada → Ir a Tessis** y aceptá los permisos. La autorización pasa por el
+> Mientras Google termina de verificar la aplicación de Tessis (el trámite está en curso), va a aparecer la pantalla
+> **«Google no verificó esta app»**. Es normal: tocá **Configuración avanzada → Ir a Tessis** y aceptá los permisos. La autorización pasa por el
 > servidor de Tessis al conectarla y al renovarla, sin guardarse; ver [Privacidad](10-privacidad.md).
 
 <img src="../img/integraciones.png" alt="Integraciones" width="360">

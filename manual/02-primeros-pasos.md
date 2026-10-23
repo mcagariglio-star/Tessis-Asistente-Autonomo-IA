@@ -72,8 +72,9 @@ vincula su propia cuenta.
 <img src="../img/integraciones.png" alt="Integraciones" width="640">
 
 > [!NOTE]
-> Durante la prueba piloto, Google solo deja conectar cuentas autorizadas: mandale al administrador el Gmail de
-> cada persona del hogar que va a usar Calendar, Drive o Gmail.
+> Mientras Google termina de verificar la aplicación de Tessis (el trámite está en curso), al vincular aparece la
+> pantalla **«Google no verificó esta app»**. Es normal: tocá **Configuración avanzada → Ir a Tessis** y aceptá los
+> permisos.
 
 Todo lo demás (notificaciones, horarios de silencio, voz, tema, PIN, respaldo) está en
 **[Configuración](02b-configuracion.md)**. Después seguí con [Charlar y hablar](03-charlar.md).
