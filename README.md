@@ -141,13 +141,14 @@ escribinos y te devolvemos el pago.
 
 ## 🛟 Ayuda y soporte
 
+- **Comunidad y ayuda con la instalación:** en el **[grupo de Telegram](https://t.me/+7xhe49oae09jMWQ5)**, con temas para novedades, ayuda e ideas.
 - **Dudas y sugerencias:** en [Discussions](https://github.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/discussions).
 - **Errores:** en [Issues](https://github.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/issues), contando qué
   pasó y qué esperabas.
 - **Pagos, licencias o algo privado:** a [mca.gariglio@gmail.com](mailto:mca.gariglio@gmail.com).
 
 > [!CAUTION]
-> Discussions e Issues son públicos: nunca pegues ahí tu clave de licencia, tus claves de IA ni datos personales.
+> Telegram, Discussions e Issues son públicos: nunca pegues ahí tu clave de licencia, tus claves de IA ni datos personales.
 
 ---
 

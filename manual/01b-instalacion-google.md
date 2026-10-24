@@ -77,6 +77,10 @@ Listo: seguí con los [primeros pasos](02-primeros-pasos.md).
 
 ## Si algo no sale
 
+> [!TIP]
+> **¿Te trabaste?** Entrá a la **[comunidad de Tessis en Telegram](https://t.me/+7xhe49oae09jMWQ5)** (tema *Instalación y ayuda*): te
+> ayudamos a dejarla andando. Nunca pegues ahí tu clave de licencia ni tus claves de IA.
+
 | Qué pasa | Qué hacer |
 |---|---|
 | Al crear la máquina desde el formulario dice **«Se produjo un error desconocido»** | Usá los dos comandos de Cloud Shell de arriba: hacen lo mismo y, si algo falla, dicen el motivo exacto. |

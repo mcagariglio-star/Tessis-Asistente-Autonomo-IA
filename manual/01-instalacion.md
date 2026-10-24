@@ -116,6 +116,10 @@ Listo: seguí con los [primeros pasos](02-primeros-pasos.md).
 
 ## Si algo no sale
 
+> [!TIP]
+> **¿Te trabaste?** Entrá a la **[comunidad de Tessis en Telegram](https://t.me/+7xhe49oae09jMWQ5)** (tema *Instalación y ayuda*): te
+> ayudamos a dejarla andando. Nunca pegues ahí tu clave de licencia ni tus claves de IA.
+
 | Qué pasa | Qué hacer |
 |---|---|
 | Al crear la máquina dice **«Capacidad insuficiente»** u **«Out of capacity»** | Oracle no tiene máquinas gratis libres en ese momento. Tenés tres opciones: reintentar más tarde (de noche o temprano suele haber lugar); pasar la cuenta a **Pay As You Go** (lo gratis sigue siendo gratis y te da prioridad); o usar el plan B, **[Google Cloud](01b-instalacion-google.md)**. |
