@@ -60,7 +60,7 @@ o en la PC desde el navegador, con su ícono y sus notificaciones, sin pasar por
 | 🔎 **Información real** | Búsquedas con fuentes, clima, dólar, acciones, cripto, análisis de acciones e informes en PDF. Si no sabe algo, lo busca o te lo dice: no inventa. |
 | 📨 **Correo y archivos** | Lee tu Gmail (solo lectura) y tu Google Drive. También mira las fotos y capturas que le mostrás. |
 | 🏠 **Para todo el hogar** | Una cuenta por persona, con mensajes y recordatorios entre ustedes: «decile a Ana que compre pan». |
-| 💻 **Tu computadora** | Con el agente para Windows abre programas y mira tu pantalla cuando se lo pedís. También puede pensar con una **IA instalada en tu PC**. |
+| 💻 **Tu computadora** | Con el [agente para Windows](manual/09-pc.md) (opcional) abre programas y mira tu pantalla cuando se lo pedís. También puede pensar con una **IA instalada en tu PC**, que el agente instala solo. |
 | 🔒 **Tus datos, en tu servidor** | Cada hogar tiene su propia instalación, con respaldo diario. Si querés, guarda además una copia cifrada en tu Drive. |
 
 Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/README.md)**.
