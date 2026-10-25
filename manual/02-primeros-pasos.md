@@ -48,7 +48,7 @@ Hay dos claves más para que las búsquedas y las rutas den datos reales:
 
 | Servicio | Para qué | Dónde se saca la clave | Costo |
 |---|---|---|---|
-| **Tavily** o **Brave Search** (una de las dos) | Búsquedas en internet con fuentes | [app.tavily.com](https://app.tavily.com/) · [brave.com/search/api](https://brave.com/search/api/) | Gratis, sin tarjeta: Tavily da 1.000 búsquedas por mes; Brave, 5 USD de crédito por mes (unas 1.000 búsquedas) |
+| **Tavily** o **Brave Search** (una de las dos) | Búsquedas en internet con fuentes | [app.tavily.com](https://app.tavily.com/) · [api-dashboard.search.brave.com](https://api-dashboard.search.brave.com/) | **Tavily:** gratis y sin tarjeta, 1.000 búsquedas por mes (la más fácil). **Brave:** prepago con 5 USD de crédito gratis por mes (unas 1.000 búsquedas); para activar el plan puede pedir una tarjeta |
 | **Google Maps** (opcional) | Rutas con tiempo y tránsito, avisos de cuándo salir, lugares cercanos | [Google Cloud → Credenciales](https://console.cloud.google.com/apis/credentials) (activar Directions, Places y Geocoding) | Crédito gratis mensual; pide cargar una tarjeta |
 
 También es opcional **SerpApi** ([serpapi.com](https://serpapi.com/), 250 búsquedas gratis por mes), para buscar
