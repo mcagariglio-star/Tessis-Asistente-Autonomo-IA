@@ -142,6 +142,7 @@ escribinos y te devolvemos el pago.
 ## 🛟 Ayuda y soporte
 
 - **Comunidad y ayuda con la instalación:** en el **[grupo de Telegram](https://t.me/+7xhe49oae09jMWQ5)**, con temas para novedades, ayuda e ideas.
+- **Novedades:** en la **[página de Facebook](https://www.facebook.com/profile.php?id=61596019795076)**.
 - **Dudas y sugerencias:** en [Discussions](https://github.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/discussions).
 - **Errores:** en [Issues](https://github.com/mcagariglio-star/Tessis-Asistente-Autonomo-IA/issues), contando qué
   pasó y qué esperabas.
