@@ -92,7 +92,7 @@ casa con Ubuntu.
    pagar tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en la página y te llega por mail. Ahí también podés elegir
    la dirección de tu Tessis, por ejemplo **`maxi.tessis-ia.com`**.
 2. **Creá tu servidor** con la guía de [Oracle Cloud](manual/01-instalacion.md) o la de
-   [Google Cloud](manual/01b-instalacion-google.md). Al crear la máquina pegás un script de inicio con tu clave, y
+   [Google Cloud](manual/01b-instalacion-google.md) (también [en video](https://www.youtube.com/playlist?list=PLD39aGFL-t_M)). Al crear la máquina pegás un script de inicio con tu clave, y
    Tessis se instala sola. Si ya tenés un Ubuntu andando, alcanza con este comando:
    ```bash
    curl -fsSL https://licencias.tessis-ia.com/instalar.sh -o instalar.sh && bash instalar.sh

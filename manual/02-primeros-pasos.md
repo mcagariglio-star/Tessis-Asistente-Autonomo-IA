@@ -54,6 +54,8 @@ Hay dos claves más para que las búsquedas y las rutas den datos reales:
 También es opcional **SerpApi** ([serpapi.com](https://serpapi.com/), 250 búsquedas gratis por mes), para buscar
 **vuelos** con precios reales.
 
+Cómo sacar cada clave, en video de menos de un minuto: [Groq, Gemini, Tavily y Brave](https://www.youtube.com/playlist?list=PLD39aGFL-t_M).
+
 Si cargás las dos de búsqueda, Tessis usa Tavily y, si falla, Brave. Sin ninguna, no puede buscar en internet. Sin Google Maps, las rutas salen como un enlace a Maps, sin tiempos.
 
 <img src="../img/ajustes-ia.png" alt="Configuración de IA" width="640">

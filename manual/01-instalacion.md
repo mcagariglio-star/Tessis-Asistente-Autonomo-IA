@@ -3,6 +3,9 @@
 Tessis corre en un **servidor tuyo**. La forma más fácil, y gratis, es una máquina de **Oracle Cloud**: se crea
 desde el navegador en unos 15 minutos. Después, Tessis se instala sola.
 
+> [!TIP]
+> ¿Preferís verlo? [Instalá Tessis paso a paso, en video](https://www.youtube.com/playlist?list=PLD39aGFL-t_M) (Oracle, Google Cloud y cómo sacar cada clave).
+
 **Qué necesitás**
 - Tu **clave de licencia** (`TESS-XXXX-XXXX-XXXX-XXXX`).
 - Una cuenta de **Oracle Cloud** (gratis; pide una tarjeta de crédito solo para verificar tu identidad).

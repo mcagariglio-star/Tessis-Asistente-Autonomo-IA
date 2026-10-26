@@ -3,6 +3,9 @@
 Si Oracle no tiene máquinas gratis disponibles («Capacidad insuficiente»), **Google Cloud** ofrece otra opción
 siempre gratis que alcanza para Tessis: la **e2-micro** (2 CPU compartidas, 1 GB de memoria, 30 GB de disco).
 
+> [!TIP]
+> También está [en video](https://www.youtube.com/playlist?list=PLD39aGFL-t_M): la instalación en Google Cloud dura poco más de un minuto.
+
 | | Oracle Cloud | Google Cloud |
 |---|---|---|
 | Máquina gratis | Micro (1 GB) o Ampere (hasta 24 GB) | e2-micro (1 GB) |
