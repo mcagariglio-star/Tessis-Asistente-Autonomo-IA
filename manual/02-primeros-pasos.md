@@ -44,6 +44,11 @@ para el uso de un hogar:
 En Tessis: **Configuración → IA**, pegá las claves y guardá. Con las dos, si una falla o llega a su límite, Tessis
 sigue con la otra sin que lo notes.
 
+Una tercera opción gratis es **OpenRouter** ([openrouter.ai/keys](https://openrouter.ai/keys)): con una sola clave da
+acceso a muchas IA, y algunas son gratis, con un límite diario. Tessis la usa de respaldo después de Groq y Gemini y,
+de fábrica, elige un modelo gratis. Ojo: en los modelos gratis, el servicio que los corre puede usar lo que le mandás
+para entrenar.
+
 ### ¿Preferís ChatGPT, Claude o DeepSeek?
 
 Tessis no está atada a ninguna IA. Si ya pagás una o querés probar otra, cargá su clave y elegila como
