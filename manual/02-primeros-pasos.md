@@ -44,6 +44,22 @@ para el uso de un hogar:
 En Tessis: **Configuración → IA**, pegá las claves y guardá. Con las dos, si una falla o llega a su límite, Tessis
 sigue con la otra sin que lo notes.
 
+### ¿Preferís ChatGPT, Claude o DeepSeek?
+
+Tessis no está atada a ninguna IA. Si ya pagás una o querés probar otra, cargá su clave y elegila como
+**IA principal** (Configuración → IA → IA principal), con el modelo que quieras. Tu memoria, tu agenda y tu familia
+quedan en tu servidor: cambiar de IA no borra nada.
+
+| Servicio | Dónde se saca la clave | Costo |
+|---|---|---|
+| **ChatGPT** (OpenAI) | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) | Pago por uso, con crédito cargado |
+| **Claude** (Anthropic) | [platform.claude.com](https://platform.claude.com/) | Pago por uso, con crédito cargado |
+| **DeepSeek** | [platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys) | Pago por uso, muy barato |
+
+> [!NOTE]
+> La clave de la API es aparte de la suscripción de la app (ChatGPT Plus, Claude Pro): se paga por lo que se usa.
+> Si la principal falla o se queda sin crédito, Tessis sigue con Groq y Gemini.
+
 Hay dos claves más para que las búsquedas y las rutas den datos reales:
 
 | Servicio | Para qué | Dónde se saca la clave | Costo |
