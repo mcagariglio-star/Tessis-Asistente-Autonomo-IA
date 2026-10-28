@@ -73,8 +73,10 @@ Más detalles en **[Privacidad y ajustes](10-privacidad.md)** y en los
 **¿Cuántas personas pueden usarla?** Hasta 5 por cuenta, titular incluido: invitás a tu familia desde
 [El hogar](08-hogar.md).
 
-**¿Y si dejo de pagar?** Tessis te avisa antes de que venza. Si vence, deja de responder hasta que la renueves; al
-renovar, todo vuelve a estar como estaba.
+**¿Y si dejo de pagar?** Tessis te avisa antes de que venza. Si vence, deja de responder hasta que la renueves.
+Tus datos se guardan **30 días** después del vencimiento: si renovás en ese plazo, todo vuelve a estar como estaba.
+Una semana antes de borrarlos te mandamos un mail con la fecha. Pasados los 30 días se eliminan; si después volvés a
+renovar, te preparamos una Tessis nueva, vacía, con la misma dirección.
 
 **¿Necesito una PC prendida?** No. Tessis Online funciona las 24 horas en nuestros servidores: te avisa y te recuerda
 aunque tengas el celular o la PC apagados.
