@@ -7,7 +7,8 @@ demostración (los nombres, lugares y datos son inventados).
 
 | | Tema | Qué vas a encontrar |
 |---|---|---|
-| 1 | [Instalación en Oracle Cloud](01-instalacion.md) | Crear tu servidor gratis y dejar Tessis andando |
+| ★ | [Tessis Online](00-tessis-online.md) | Lista para usar en minutos, sin servidor: prueba gratis de 7 días, precios y tus datos |
+| 1 | [Instalación en Oracle Cloud](01-instalacion.md) | **Tessis Server:** crear tu servidor gratis y dejar Tessis andando |
 | 1b | [Instalación en Google Cloud](01b-instalacion-google.md) | Plan B si Oracle no tiene lugar: dos comandos y listo |
 | 1c | [La dirección de tu Tessis](01c-tu-direccion.md) | Tu propia dirección, como `maxi.tessis-ia.com`, y cómo cambiarla |
 | 2 | [Primeros pasos](02-primeros-pasos.md) | Crear tu cuenta, instalar la app en el celular, cargar tus claves de IA |
