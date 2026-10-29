@@ -3,6 +3,8 @@
 **Tessis Online** es Tessis funcionando en nuestros servidores. No tenés que crear una máquina ni instalar nada:
 elegís una dirección, te llega la clave por mail y en unos minutos tu Tessis está lista.
 
+▶️ **[Miralo en video: Tessis Online paso a paso (1 minuto)](https://youtu.be/ptu62s7Q8zA)**
+
 Si preferís que tus datos queden en una máquina tuya, está **Tessis Server**: la instalás en tu propio servidor
 gratis (Oracle o Google Cloud) con la [guía de instalación](01-instalacion.md).
 

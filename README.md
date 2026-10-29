@@ -105,7 +105,8 @@ la página y te llega por mail. En las dos podés elegir la dirección de tu Tes
    **[probarla gratis 7 días](https://licencias.tessis-ia.com/comprar?prueba=1&plan=online)** o pagarla.
 2. En unos minutos te llega el mail **«Tu Tessis está lista»** con su dirección. Abrila y creá tu cuenta con tu clave.
 
-Todo el detalle, incluido qué pasa con tus datos, está en la **[guía de Tessis Online](manual/00-tessis-online.md)**.
+Todo el detalle, incluido qué pasa con tus datos, está en la **[guía de Tessis Online](manual/00-tessis-online.md)**
+y en **[video, en 1 minuto](https://youtu.be/ptu62s7Q8zA)**.
 
 ### 🖥️ Tessis Server: en tu propio servidor
 
