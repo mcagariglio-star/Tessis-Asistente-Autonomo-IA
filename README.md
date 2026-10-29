@@ -125,12 +125,14 @@ En las dos, Tessis se mantiene sola: controla su licencia cada hora, instala las
 avisa unos días antes de que venza la licencia.
 
 > [!IMPORTANT]
-> Para responder, Tessis usa **servicios de IA externos** (Groq, Google Gemini) con tus propias claves, que tienen
-> opción gratis. Lo que escribís, adjuntás o mostrás de tu pantalla se procesa en esos servicios: **no compartas
+> Para responder, Tessis usa **servicios de IA externos** con tus propias claves: Groq, Google Gemini y OpenRouter
+> (con opción gratis), o ChatGPT, Claude y DeepSeek (pagos por uso). Lo que escribís, adjuntás o mostrás de tu pantalla se procesa en esos servicios: **no compartas
 > información sensible.**
 
-**¿Cuánto cuesta la IA?** Groq y Gemini tienen planes gratis que, para el uso normal de un hogar, suelen alcanzar.
-Si un día se llega al límite, Tessis lo dice y usa el otro servicio. Google Maps también tiene un crédito mensual
+**¿Qué IA usa? ¿Cuánto cuesta?** La que elijas, con tu propia clave. Groq, Gemini y los modelos gratis de OpenRouter
+no cuestan nada y, para el uso normal de un hogar, suelen alcanzar. También podés usar ChatGPT, Claude o DeepSeek,
+que se pagan por uso a cada servicio. Si una IA falla o llega a su límite, Tessis sigue con otra sin que hagas nada,
+y cambiar de IA no borra nada. O puede pensar con una [IA instalada en tu PC](manual/09-pc.md), gratis. Google Maps también tiene un crédito mensual
 gratis. Lo que pagues a esos servicios, si pasás a un plan pago, es aparte de la licencia.
 
 **¿Y si no me funciona?** En Tessis Server, si en los primeros 7 días desde tu primera compra no lográs hacerla
