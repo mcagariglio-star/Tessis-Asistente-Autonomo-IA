@@ -133,8 +133,8 @@ avisa unos días antes de que venza la licencia.
 Si un día se llega al límite, Tessis lo dice y usa el otro servicio. Google Maps también tiene un crédito mensual
 gratis. Lo que pagues a esos servicios, si pasás a un plan pago, es aparte de la licencia.
 
-**¿Y si no me funciona?** Si en los primeros 7 días desde tu primera compra no lográs hacerla funcionar,
-escribinos y te devolvemos el pago.
+**¿Y si no me funciona?** En Tessis Server, si en los primeros 7 días desde tu primera compra no lográs hacerla
+funcionar en tu servidor, escribinos y te devolvemos el pago.
 
 ---
 

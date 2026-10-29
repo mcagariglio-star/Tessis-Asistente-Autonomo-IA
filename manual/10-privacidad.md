@@ -2,8 +2,10 @@
 
 ## Dónde están tus datos
 
-- **En tu servidor.** Las charlas, la memoria, los recordatorios, los lugares y la configuración se guardan en la
-  base de datos de tu propia instalación. Cada persona del hogar ve solo lo suyo.
+- **En tu instalación.** Las charlas, la memoria, los recordatorios, los lugares y la configuración se guardan en la
+  base de datos de tu propia instalación. Cada persona del hogar ve solo lo suyo. En **Tessis Server** esa base
+  está en tu servidor; en **Tessis Online**, en nuestros servidores, separada de la de los demás clientes (más en la
+  [guía de Tessis Online](00-tessis-online.md#tus-datos-en-tessis-online)).
 - **Las claves** de Groq, Gemini y Google se guardan **cifradas**.
 - **Los servicios de IA externos** (Groq, Gemini) reciben lo que escribís, adjuntás o mostrás de tu pantalla para
   poder responder, y lo procesan según sus propias condiciones. **No compartas información sensible.**
@@ -60,10 +62,13 @@ No. Solo cuando se lo pedís («mirá mi pantalla»), y solo si tu PC tiene el a
 Los recordatorios que vencieron con el servidor apagado salen apenas vuelve, con un aviso del atraso.
 
 **¿Cuánto cuesta?**
-El servidor (Oracle Cloud o Google Cloud) y las claves de IA tienen opciones gratis que alcanzan para un hogar. La
-licencia de Tessis cuesta 3 USD el primer mes y después 5 USD por mes, para hasta 5 personas. Si en los primeros
-7 días no lográs hacerla funcionar, te devolvemos el pago.
+Las claves de IA tienen opciones gratis que alcanzan para un hogar. Las dos formas traen 7 días de prueba gratis y
+son para hasta 5 personas:
+- **Tessis Online** (sin servidor): 5 USD el primer mes y después 7 USD por mes.
+- **Tessis Server** (en tu servidor de Oracle Cloud o Google Cloud, que tienen opción gratis): 3 USD el primer mes y
+  después 5 USD por mes. Si en los primeros 7 días no lográs hacerla funcionar, te devolvemos el pago.
 
 **¿Cómo borro todo?**
-El titular puede borrar a un miembro y todos sus datos desde **Configuración → Familia**. Para borrar todo, se borra
-el servidor.
+El titular puede borrar a un miembro y todos sus datos desde **Configuración → Familia**. Para borrar todo: en Tessis
+Server, se borra el servidor; en Tessis Online, escribinos y lo borramos (si no renovás, se borra solo a los 30 días
+del vencimiento).

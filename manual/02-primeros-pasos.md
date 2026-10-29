@@ -5,7 +5,8 @@
 La primera vez que abrís tu Tessis, tocá **«¿Primera vez en este servidor? Crear la cuenta del titular»** y
 completá:
 
-- **Clave de licencia:** la misma con la que instalaste (`TESS-XXXX-XXXX-XXXX-XXXX`).
+- **Clave de licencia:** la que te llegó por mail (`TESS-XXXX-XXXX-XXXX-XXXX`): con la que instalaste, o la de tu
+  Tessis Online.
 - **Usuario** y **contraseña**: los vas a usar para entrar desde el celular y la PC.
 - **Cómo querés que te llame Tessis.**
 
@@ -26,7 +27,7 @@ Tessis es una **app web (PWA)**: se instala desde el navegador, en el celular y 
 - **iPhone (Safari):** abrí tu Tessis → botón **Compartir** → **Agregar a inicio**.
 
 Queda con su ícono y se abre a pantalla completa. Además, te puede mandar **notificaciones** (aceptá el permiso
-cuando lo pida). Tessis trabaja en tu servidor las 24 horas: aunque cierres la app o apagues el celular, sigue atenta
+cuando lo pida). Tessis trabaja en el servidor las 24 horas: aunque cierres la app o apagues el celular, sigue atenta
 a tu agenda, tus recordatorios y tus lugares. Cuando hace falta, te avisa con una notificación.
 
 ---
