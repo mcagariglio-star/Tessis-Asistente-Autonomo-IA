@@ -25,7 +25,7 @@
 ## 🐾 Qué es Tessis
 
 **Tessis es una asistente personal autónoma con IA: te conoce, entiende tu contexto y actúa por su cuenta.
-Vive en tu propio servidor, así que tus datos son tuyos.**
+Lista para usar en nuestros servidores, o en tu propio servidor para que tus datos queden solo con vos.**
 
 Se adelanta a tu día: te avisa cuándo salir, te recuerda lo importante y te da la bienvenida cuando llegás.
 Habla en español, por texto o por voz, y sirve para todo tu hogar.
@@ -43,7 +43,8 @@ o en la PC desde el navegador, con su ícono y sus notificaciones, sin pasar por
 </p>
 
 > [!NOTE]
-> Tessis se instala con una **licencia mensual**; ver [Cómo conseguirla](#-cómo-conseguirla).
+> Tessis funciona con una **licencia mensual**, con 7 días de prueba gratis: lista para usar (**Tessis Online**) o en
+> tu propio servidor (**Tessis Server**). Ver [Cómo conseguirla](#-cómo-conseguirla).
 
 ---
 
@@ -51,7 +52,7 @@ o en la PC desde el navegador, con su ícono y sus notificaciones, sin pasar por
 
 | | |
 |---|---|
-| ⏱️ **Siempre activa** | Funciona todo el día en tu servidor, aunque apagues el celular y la PC. |
+| ⏱️ **Siempre activa** | Funciona todo el día en el servidor, aunque apagues el celular y la PC. |
 | 📲 **App en tu celular** | Se instala desde el navegador (PWA), con su ícono y sus notificaciones. |
 | 💬 **Conversar y recordar** | Charla natural, por texto o por voz. Aprende de vos (personas, lugares, gustos, rutinas); podés ver, corregir o borrar lo que sabe. |
 | 📅 **Organizar tu día** | Recordatorios a una hora, repetidos o al llegar a un lugar. Google Calendar, resumen de la mañana, plazos y vencimientos. |
@@ -61,7 +62,7 @@ o en la PC desde el navegador, con su ícono y sus notificaciones, sin pasar por
 | 📨 **Correo y archivos** | Lee tu Gmail (solo lectura) y tu Google Drive. También mira las fotos y capturas que le mostrás. |
 | 🏠 **Para todo el hogar** | Una cuenta por persona, con mensajes y recordatorios entre ustedes: «decile a Ana que compre pan». |
 | 💻 **Tu computadora** | Con el [agente para Windows](manual/09-pc.md) (opcional) abre programas y mira tu pantalla cuando se lo pedís. También puede pensar con una **IA instalada en tu PC**, que el agente instala solo. |
-| 🔒 **Tus datos, en tu servidor** | Cada hogar tiene su propia instalación, con respaldo diario. Si querés, guarda además una copia cifrada en tu Drive. |
+| 🔒 **Tus datos, separados** | Cada hogar tiene su propia instalación y su propia base de datos, con respaldo diario. Si querés, guarda además una copia cifrada en tu Drive. |
 
 Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/README.md)**.
 
@@ -84,13 +85,32 @@ Todo esto, con capturas y ejemplos, está en el **[manual de usuario](manual/REA
 
 ## 🚀 Cómo conseguirla
 
-Tessis corre en un **servidor tuyo**: una máquina gratis de Oracle Cloud o de Google Cloud, o una computadora en
-casa con Ubuntu.
+Hay dos formas de tenerla. Las dos traen **7 días de prueba gratis** y hacen exactamente lo mismo:
 
-1. **Comprá tu licencia** en **[Conseguir Tessis](https://licencias.tessis-ia.com/comprar)**. El primer
-   mes cuesta **3 USD**; después, **5 USD por mes**. Se paga en **USDT o USDC por la red BNB Smart Chain**, y al
-   pagar tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en la página y te llega por mail. Ahí también podés elegir
-   la dirección de tu Tessis, por ejemplo **`maxi.tessis-ia.com`**.
+| | ☁️ **Tessis Online** | 🖥️ **Tessis Server** |
+|---|---|---|
+| **Dónde vive** | En nuestros servidores | En un servidor tuyo (Oracle Cloud o Google Cloud gratis, o un Ubuntu en casa) |
+| **Instalación** | Ninguna: queda lista en unos minutos | Unos 15 minutos con la guía |
+| **Precio** | **5 USD** el primer mes, después **7 USD por mes** | **3 USD** el primer mes, después **5 USD por mes** |
+| **Tus datos** | Separados de los de los demás clientes | Solo en tu máquina |
+
+Se paga en **USDT o USDC por la red BNB Smart Chain**. Al pagar, tu clave (`TESS-XXXX-XXXX-XXXX-XXXX`) aparece en
+la página y te llega por mail. En las dos podés elegir la dirección de tu Tessis, por ejemplo
+**`maxi.tessis-ia.com`**.
+
+### ☁️ Tessis Online: lista para usar, sin servidor
+
+1. Entrá a **[Conseguir Tessis](https://licencias.tessis-ia.com/comprar?plan=online)** con **Tessis Online**
+   marcado, escribí tu mail y el nombre que quieras para tu dirección. Podés
+   **[probarla gratis 7 días](https://licencias.tessis-ia.com/comprar?prueba=1&plan=online)** o pagarla.
+2. En unos minutos te llega el mail **«Tu Tessis está lista»** con su dirección. Abrila y creá tu cuenta con tu clave.
+
+Todo el detalle, incluido qué pasa con tus datos, está en la **[guía de Tessis Online](manual/00-tessis-online.md)**.
+
+### 🖥️ Tessis Server: en tu propio servidor
+
+1. **Conseguí tu licencia** en **[Conseguir Tessis](https://licencias.tessis-ia.com/comprar?plan=server)** con
+   **Tessis Server** marcado (o pedí la prueba gratis).
 2. **Creá tu servidor** con la guía de [Oracle Cloud](manual/01-instalacion.md) o la de
    [Google Cloud](manual/01b-instalacion-google.md) (también [en video](https://www.youtube.com/playlist?list=PLD39aGFL-t_M)). Al crear la máquina pegás un script de inicio con tu clave, y
    Tessis se instala sola. Si ya tenés un Ubuntu andando, alcanza con este comando:
@@ -101,8 +121,8 @@ casa con Ubuntu.
    **[Mi Tessis](https://licencias.tessis-ia.com/)** con tu clave. La primera vez, creá tu cuenta con esa misma
    clave. Si no elegiste nombre, podés elegirlo después ([la dirección de tu Tessis](manual/01c-tu-direccion.md)).
 
-Tessis se mantiene sola: controla su licencia cada hora, instala las versiones nuevas de madrugada y te avisa unos
-días antes de que venza la licencia.
+En las dos, Tessis se mantiene sola: controla su licencia cada hora, instala las versiones nuevas de madrugada y te
+avisa unos días antes de que venza la licencia.
 
 > [!IMPORTANT]
 > Para responder, Tessis usa **servicios de IA externos** (Groq, Google Gemini) con tus propias claves, que tienen
