@@ -12,7 +12,7 @@ izquierda). Está ordenado en pestañas:
 | [IA y claves](#-ia-y-claves) | Las claves de Groq, Gemini, búsqueda y Maps; la IA de tu PC |
 | [Sistema](#-sistema) | Respaldo en tu Google Drive, ubicación, estado del servidor |
 
-Aparte, en **Integraciones**, están Google (Calendar, Drive, Gmail), tu PC y la ubicación con OwnTracks.
+Aparte, en **Integraciones**, están Google (Calendar, Drive, Gmail), tu PC, tu casa (Home Assistant) y la ubicación con OwnTracks.
 
 ---
 
@@ -126,5 +126,7 @@ Las claves del titular las usa todo el hogar: los demás no necesitan cargar nad
   Mientras Google verifica la aplicación de Tessis (en trámite), aparece «Google no verificó esta app»: tocá
   **Configuración avanzada → Ir a Tessis**.
 - **Dispositivos vinculados:** conectá tu PC con el [agente para Windows](09-pc.md).
+- **Tu casa (Home Assistant):** conectá tu Home Assistant para que Tessis maneje la tele, las luces y los
+  enchufes ([cómo](11-casa.md)).
 - **OwnTracks:** para que Tessis sepa cuándo llegás o te vas de tus lugares aunque no tengas la app abierta. Seguí
   los 3 pasos de la pantalla **desde el celular**.

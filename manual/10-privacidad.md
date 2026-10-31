@@ -9,6 +9,11 @@
 - **Las claves** de Groq, Gemini y Google se guardan **cifradas**.
 - **Los servicios de IA externos** (Groq, Gemini) reciben lo que escribís, adjuntás o mostrás de tu pantalla para
   poder responder, y lo procesan según sus propias condiciones. **No compartas información sensible.**
+- **La IA de cortesía** (solo en la prueba de Tessis Online, mientras no cargues una clave propia): tus mensajes pasan
+  por el servidor de licencias de Tessis, que los manda a Google Gemini **sin guardarlos ni registrarlos**. Es un plan
+  pago de Google, que no usa esos mensajes para entrenar.
+- **Tu casa** ([Home Assistant](11-casa.md)): Tessis guarda **cifrado** el permiso que le diste en tu Home Assistant,
+  nunca tu contraseña. Lo revocás desde tu perfil en Home Assistant o con **Desconectar** en Tessis.
 
 Los términos y condiciones completos están en tu Tessis (`https://<tu-tessis>/terminos`) y en el enlace del aviso
 de uso.

@@ -45,6 +45,11 @@ para el uso de un hogar:
 En Tessis: **Configuración → IA**, pegá las claves y guardá. Con las dos, si una falla o llega a su límite, Tessis
 sigue con la otra sin que lo notes.
 
+> [!NOTE]
+> Las claves nuevas de Gemini empiezan con `AQ.` (las anteriores, con `AIza`): las dos sirven. En la **prueba de
+> Tessis Online**, mientras no cargues ninguna clave, Tessis contesta con una IA de cortesía con límite diario
+> ([más info](00-tessis-online.md#probarla-gratis-7-días)).
+
 Una tercera opción gratis es **OpenRouter** ([openrouter.ai/keys](https://openrouter.ai/keys)): con una sola clave da
 acceso a muchas IA, y algunas son gratis, con un límite diario. Tessis la usa de respaldo después de Groq y Gemini y,
 de fábrica, elige un modelo gratis. Ojo: en los modelos gratis, el servicio que los corre puede usar lo que le mandás

@@ -61,6 +61,7 @@ o en la PC desde el navegador, con su ícono y sus notificaciones, sin pasar por
 | 🔎 **Información real** | Búsquedas con fuentes, clima, dólar, acciones, cripto, análisis de acciones e informes en PDF. Si no sabe algo, lo busca o te lo dice: no inventa. |
 | 📨 **Correo y archivos** | Lee tu Gmail (solo lectura) y tu Google Drive. También mira las fotos y capturas que le mostrás. |
 | 🏠 **Para todo el hogar** | Una cuenta por persona, con mensajes y recordatorios entre ustedes: «decile a Ana que compre pan». |
+| 📺 **Tu casa** | Con [Home Assistant](manual/11-casa.md) maneja la tele, las luces, los enchufes y el aire, aunque la PC esté apagada: «prendé la tele», «apagá la luz del living». |
 | 💻 **Tu computadora** | Con el [agente para Windows](manual/09-pc.md) (opcional) abre programas y mira tu pantalla cuando se lo pedís. También puede pensar con una **IA instalada en tu PC**, que el agente instala solo. |
 | 🔒 **Tus datos, separados** | Cada hogar tiene su propia instalación y su propia base de datos, con respaldo diario. Si querés, guarda además una copia cifrada en tu Drive. |
 
@@ -104,6 +105,9 @@ la página y te llega por mail. En las dos podés elegir la dirección de tu Tes
    marcado, escribí tu mail y el nombre que quieras para tu dirección. Podés
    **[probarla gratis 7 días](https://licencias.tessis-ia.com/comprar?prueba=1&plan=online)** o pagarla.
 2. En unos minutos te llega el mail **«Tu Tessis está lista»** con su dirección. Abrila y creá tu cuenta con tu clave.
+
+Durante la prueba, Tessis **contesta desde el primer mensaje** con una IA de cortesía (con un límite por día), aunque
+todavía no hayas cargado tu propia clave de IA. Para usarla sin límite, cargás tu clave gratis de Groq.
 
 Todo el detalle, incluido qué pasa con tus datos, está en la **[guía de Tessis Online](manual/00-tessis-online.md)**
 y en **[video, en 1 minuto](https://youtu.be/ptu62s7Q8zA)**.

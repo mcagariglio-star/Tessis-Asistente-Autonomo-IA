@@ -21,6 +21,7 @@ demostración (los nombres, lugares y datos son inventados).
 | 8 | [El hogar](08-hogar.md) | Invitar a tu familia, mensajes y recordatorios entre ustedes |
 | 9 | [Tu PC e IA local](09-pc.md) | El agente para Windows y la IA instalada en tu computadora |
 | 10 | [Privacidad y ajustes](10-privacidad.md) | Qué se guarda y dónde, el PIN, los respaldos y las preguntas frecuentes |
+| 11 | [Tu casa](11-casa.md) | La tele, las luces y los enchufes con Home Assistant, aunque la PC esté apagada |
 
 > [!TIP]
 > Tessis entiende cómo hablás: no hace falta usar palabras exactas. «Recordame mañana a las 9 lo del taller» y

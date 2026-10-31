@@ -27,13 +27,19 @@ gratis (Oracle o Google Cloud) con la [guía de instalación](01-instalacion.md)
    `familia-perez.tessis-ia.com`). Si lo dejás vacío, armamos una con tu mail.
 3. Tocá **Quiero probarla**. Te llega un mail con tu **clave** (`TESS-XXXX-XXXX-XXXX-XXXX`). Guardala.
 4. En unos minutos te llega otro mail: **«Tu Tessis está lista»**, con su dirección.
-5. Abrí esa dirección, tocá **«Crear la cuenta del titular»** y usá tu clave. Listo.
+5. Abrí esa dirección, tocá **«Crear la cuenta del titular»** y usá tu clave. Listo: ya podés escribirle.
+
+Durante la prueba, Tessis te contesta desde el primer mensaje con la **IA de cortesía**: Google Gemini con una clave
+de Tessis y un límite de mensajes por día. Debajo del chat te avisa que la estás usando. Para usar Tessis sin límite,
+cargá tu clave gratis de Groq (2 minutos, en [console.groq.com/keys](https://console.groq.com/keys)) en
+**Configuración → IA**: desde ese momento Tessis usa la tuya.
 
 > [!TIP]
 > Revisá también la carpeta de spam: los mails vienen de `licencias@tessis-ia.com`.
 
 Después seguí con **[Primeros pasos](02-primeros-pasos.md)**: instalar la app en el celular y cargar tus claves de
-IA (Groq y Gemini tienen opción gratis).
+IA (Groq y Gemini tienen opción gratis). Al terminar la prueba la IA de cortesía se deja de usar, así que conviene
+cargar tu clave antes.
 
 ## Seguir después de la prueba
 
@@ -61,6 +67,9 @@ dirección de tu Tessis. Guardá esa página en favoritos: ahí ves cuándo est�
   decís**.
 - Tus mensajes los procesa la **IA que vos elegís, con tu propia clave** (Groq, Gemini, ChatGPT, Claude…), igual
   que en Tessis Server.
+- Mientras usás la **IA de cortesía** de la prueba, tus mensajes pasan por el servidor de licencias de Tessis, que los
+  manda a Google Gemini **sin guardarlos ni registrarlos** (solo cuenta cuántos usaste). Es un plan pago de Google,
+  que no usa esos mensajes para entrenar.
 - Como en cualquier servicio en la nube, **el operador tiene acceso técnico a la máquina** donde vive tu Tessis.
   Si querés que nadie más que vos tenga ese acceso, elegí Tessis Server.
 
@@ -79,6 +88,10 @@ Más detalles en **[Privacidad y ajustes](10-privacidad.md)** y en los
 Tus datos se guardan **30 días** después del vencimiento: si renovás en ese plazo, todo vuelve a estar como estaba.
 Una semana antes de borrarlos te mandamos un mail con la fecha. Pasados los 30 días se eliminan; si después volvés a
 renovar, te preparamos una Tessis nueva, vacía, con la misma dirección.
+
+**¿Tengo que sacar una clave de IA para probarla?** No: durante la prueba contesta la IA de cortesía, con un límite
+de mensajes por día. Si llegás al límite, Tessis te explica cómo cargar tu clave gratis de Groq, y al otro día la IA
+de cortesía vuelve a estar disponible.
 
 **¿Necesito una PC prendida?** No. Tessis Online funciona las 24 horas en nuestros servidores: te avisa y te recuerda
 aunque tengas el celular o la PC apagados.
